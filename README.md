@@ -45,6 +45,8 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 19. **[Warpy](https://github.com/kanaka/warpy)** - RPython
 
+20. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
+
 ### License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
