@@ -11,7 +11,7 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 2. **[Nebulet](https://github.com/nebulet/nebulet)** - Rust (Kernel that runs wasm at ring 0)
 
-3. **[wasm-jit](https://github.com/rianhunter/wasmjit)** - C
+3. **[wasmjit](https://github.com/rianhunter/wasmjit)** - C
 
 4. **[serverless-wasm](https://github.com/Geal/serverless-wasm)** - Rust
 
@@ -19,33 +19,31 @@ This file contains a list of non-web wasm runtimes in development in no particul
  
 6. **[Life](https://github.com/perlin-network/life)** - Go
 
-7. **[wasmtime](https://github.com/CraneStation/wasmtime)** - Rust
+7. **[wasmtime](https://github.com/CraneStation/wasmtime)** - Rust, Cranelift
 
 8. **[WasmVM](https://github.com/LuisHsu/WasmVM)** - C++
 
 9. **[Wasm Runtime](https://github.com/kgtkr/wasm-runtime)** - Nodejs
 
-10. **[Wasm Standalone](https://github.com/sunfishcode/wasmstandalone)** - Rust, Cranelift
+10. **[Wasm JIT Prototype](https://github.com/WebAssembly/wasm-jit-prototype)** - C++, LLVM
 
-11. **[Wasm JIT Prototype](https://github.com/WebAssembly/wasm-jit-prototype)** - C++, LLVM
+11. **[Motor](https://github.com/penberg/motor)** - Rust
 
-12. **[Motor](https://github.com/penberg/motor)** - Rust
+12. **[Wave](https://github.com/astrolang/wave)** - C++, LLVM
 
-13. **[Wave](https://github.com/astrolang/wave)** - C++, LLVM
+13. **[FDVM](https://github.com/funcdef/fdvm)** - Nodejs
 
-14. **[FDVM](https://github.com/funcdef/fdvm)** - Nodejs
+14. **[WebAssembly](https://github.com/dcodeIO/webassembly)** - Nodejs
 
-15. **[WebAssembly](https://github.com/dcodeIO/webassembly)** - Nodejs
+15. **[WasmRT](https://github.com/rhitchcock/wasmrt)** - C++
 
-16. **[WasmRT](https://github.com/rhitchcock/wasmrt)** - C++
+16. **[WAKit](https://github.com/akkyie/WAKit)** - Swift
 
-17. **[WAKit](https://github.com/akkyie/WAKit)** - Swift
+17. **[JumpJet](https://github.com/jawm/jumpjet)** - Rust
 
-18. **[JumpJet](https://github.com/jawm/jumpjet)** - Rust
+18. **[Warpy](https://github.com/kanaka/warpy)** - RPython
 
-19. **[Warpy](https://github.com/kanaka/warpy)** - RPython
-
-20. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
+19. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
 
 ### License
 
