@@ -33,25 +33,23 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 13. **[Motor](https://github.com/penberg/motor)** - Rust
 
-14. **[Wave](https://github.com/astrolang/wave)** - C++, LLVM
+14. **[FDVM](https://github.com/funcdef/fdvm)** - Nodejs
 
-15. **[FDVM](https://github.com/funcdef/fdvm)** - Nodejs
+15. **[WebAssembly](https://github.com/dcodeIO/webassembly)** - Nodejs
 
-16. **[WebAssembly](https://github.com/dcodeIO/webassembly)** - Nodejs
+16. **[WasmRT](https://github.com/rhitchcock/wasmrt)** - C++
 
-17. **[WasmRT](https://github.com/rhitchcock/wasmrt)** - C++
+17. **[WAKit](https://github.com/akkyie/WAKit)** - Swift
 
-18. **[WAKit](https://github.com/akkyie/WAKit)** - Swift
+18. **[JumpJet](https://github.com/jawm/jumpjet)** - Rust
 
-19. **[JumpJet](https://github.com/jawm/jumpjet)** - Rust
+19. **[Warpy](https://github.com/kanaka/warpy)** - RPython
 
-20. **[Warpy](https://github.com/kanaka/warpy)** - RPython
+20. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
 
-21. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
+21. **[Asmble](https://github.com/cretz/asmble)** - Kotlin
 
-22. **[Asmble](https://github.com/cretz/asmble)** - Kotlin
-
-23. **[wac/wace](https://github.com/kanaka/wac)** - C
+22. **[wac/wace](https://github.com/kanaka/wac)** - C
 
 ### License
 
