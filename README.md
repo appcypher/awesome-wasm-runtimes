@@ -9,7 +9,7 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 1. **[CMM of wasm](https://github.com/SimonJF/cmm_of_wasm)** - Ocaml
 
-2. **[Cranelift](https://github.com/CraneStation/cranelift)** - Rust
+2. **[Cranelift](https://github.com/CraneStation/cranelift)** - Rust, Cranelift
 
 3. **[Nebulet](https://github.com/nebulet/nebulet)** - Rust (Kernel that runs wasm at ring 0)
 
@@ -50,6 +50,8 @@ This file contains a list of non-web wasm runtimes in development in no particul
 21. **[Asmble](https://github.com/cretz/asmble)** - Kotlin
 
 22. **[wac/wace](https://github.com/kanaka/wac)** - C
+
+22. **[wasmer](https://github.com/WAFoundation/wasmer)** - Rust, Cranelift
 
 ### License
 
