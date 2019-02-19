@@ -53,6 +53,8 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 23. **[wasmlite](https://github.com/appcypher/wasmlite)** - Rust, LLVM
 
+24. **[py-wasm](https://github.com/ethereum/py-wasm)** - Python
+
 ### License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
