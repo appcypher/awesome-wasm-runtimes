@@ -2,7 +2,7 @@
 WebAssembly, or wasm for short, is a low-level bytecode format that runs in the browser just like JavaScript.
 It is designed to be faster to parse than JavaScript, as well as faster to execute. 
 
-Webassembly is not strictly meant for the web, it is also designed to be used non-web environment as well. 
+Webassembly is not strictly meant for the web, it is also designed to be used in non-web environment as well. 
 This file contains a list of non-web wasm runtimes in development in no particular order. :octocat:
 
 ------------------------------------------------------------------------------------------------------
