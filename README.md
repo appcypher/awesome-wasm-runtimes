@@ -49,7 +49,7 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 21. **[wac/wace](https://github.com/kanaka/wac)** - C
 
-22. **[wasmer](https://github.com/wasmerio/wasmer)** - Rust, Cranelift
+22. **[wasmer](https://github.com/wasmerio/wasmer)** - Rust, Dynasm, Cranelift, LLVM
 
 23. **[wasmlite](https://github.com/appcypher/wasmlite)** - Rust, LLVM
 
