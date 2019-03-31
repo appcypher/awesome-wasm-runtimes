@@ -57,6 +57,8 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 25. **[Lucet](https://github.com/fastly/lucet)** - Rust, Cranelift
 
+26. **[Swam](https://github.com/satabin/swam)** - Scala
+
 
 ### License
 
