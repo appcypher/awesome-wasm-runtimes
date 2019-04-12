@@ -59,6 +59,8 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 26. **[Swam](https://github.com/satabin/swam)** - Scala
 
+27. **[VMIR](https://github.com/andoma/vmir)** - C
+
 
 ### License
 
