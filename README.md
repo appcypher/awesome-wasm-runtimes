@@ -51,7 +51,7 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 22. **[wasmer](https://github.com/wasmerio/wasmer)** - Rust, Dynasm, Cranelift, LLVM
 
-23. **[wasmlite](https://github.com/appcypher/wasmlite)** - Rust, LLVM
+23. **[wasmo](https://github.com/appcypher/wasmo)** - Rust, LLVM
 
 24. **[py-wasm](https://github.com/ethereum/py-wasm)** - Python
 
