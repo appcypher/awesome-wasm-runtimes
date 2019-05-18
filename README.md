@@ -61,6 +61,7 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 27. **[VMIR](https://github.com/andoma/vmir)** - C
 
+28. **[WAMR](https://github.com/intel/wasm-micro-runtime)** - C
 
 ### License
 
