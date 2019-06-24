@@ -11,8 +11,6 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 2. **[Nebulet](https://github.com/nebulet/nebulet)** - Rust, Cranelift (Kernel that runs wasm at ring 0)
 
-3. **[wasmjit](https://github.com/rianhunter/wasmjit)** - C
-
 4. **[serverless-wasm](https://github.com/Geal/serverless-wasm)** - Rust
 
 5. **[Ice Core](https://github.com/losfair/IceCore)** - Rust
