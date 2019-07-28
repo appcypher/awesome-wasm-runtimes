@@ -61,6 +61,8 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 28. **[WAMR](https://github.com/intel/wasm-micro-runtime)** - C
 
+29. **[EOSVM](https://github.com/EOSIO/eos-vm)** - C++
+
 ### License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
