@@ -63,7 +63,7 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 29. **[EOSVM](https://github.com/EOSIO/eos-vm)** - C++
 
-30. **[EOSVM](https://github.com/innative-sdk/innative)** - C++
+30. **[InNative](https://github.com/innative-sdk/innative)** - C++
 
 31. **[m3](https://github.com/soundandform/m3)** - C
 
