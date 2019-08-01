@@ -11,61 +11,61 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 2. **[Nebulet](https://github.com/nebulet/nebulet)** - Rust, Cranelift (Kernel that runs wasm at ring 0)
 
-4. **[serverless-wasm](https://github.com/Geal/serverless-wasm)** - Rust
+3. **[serverless-wasm](https://github.com/Geal/serverless-wasm)** - Rust
 
-5. **[Ice Core](https://github.com/losfair/IceCore)** - Rust
+4. **[Ice Core](https://github.com/losfair/IceCore)** - Rust
 
-6. **[Life](https://github.com/perlin-network/life)** - Go
+5. **[Life](https://github.com/perlin-network/life)** - Go
 
-7. **[wasmi](https://github.com/paritytech/wasmi)** - Rust
+6. **[wasmi](https://github.com/paritytech/wasmi)** - Rust
 
-8. **[wasmtime](https://github.com/CraneStation/wasmtime)** - Rust, Cranelift
+7. **[wasmtime](https://github.com/CraneStation/wasmtime)** - Rust, Cranelift
 
-9. **[WasmVM](https://github.com/LuisHsu/WasmVM)** - C++
+8. **[WasmVM](https://github.com/LuisHsu/WasmVM)** - C++
 
-10. **[Wasm Runtime](https://github.com/kgtkr/wasm-runtime)** - Nodejs
+9. **[Wasm Runtime](https://github.com/kgtkr/wasm-runtime)** - Nodejs
 
-11. **[Wasm JIT Prototype](https://github.com/WebAssembly/wasm-jit-prototype)** - C++, LLVM
+10. **[Wasm JIT Prototype](https://github.com/WebAssembly/wasm-jit-prototype)** - C++, LLVM
 
-12. **[Motor](https://github.com/penberg/motor)** - Rust
+11. **[Motor](https://github.com/penberg/motor)** - Rust
 
-13. **[FDVM](https://github.com/funcdef/fdvm)** - Nodejs
+12. **[FDVM](https://github.com/funcdef/fdvm)** - Nodejs
 
-14. **[WebAssembly](https://github.com/dcodeIO/webassembly)** - Nodejs
+13. **[WebAssembly](https://github.com/dcodeIO/webassembly)** - Nodejs
 
-15. **[WasmRT](https://github.com/rhitchcock/wasmrt)** - C++
+14. **[WasmRT](https://github.com/rhitchcock/wasmrt)** - C++
 
-16. **[WAKit](https://github.com/akkyie/WAKit)** - Swift
+15. **[WAKit](https://github.com/akkyie/WAKit)** - Swift
 
-17. **[JumpJet](https://github.com/jawm/jumpjet)** - Rust
+16. **[JumpJet](https://github.com/jawm/jumpjet)** - Rust
 
-18. **[Warpy](https://github.com/kanaka/warpy)** - RPython
+17. **[Warpy](https://github.com/kanaka/warpy)** - RPython
 
-19. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
+18. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
 
-20. **[Asmble](https://github.com/cretz/asmble)** - Kotlin
+19. **[Asmble](https://github.com/cretz/asmble)** - Kotlin
 
-21. **[wac/wace](https://github.com/kanaka/wac)** - C
+20. **[wac/wace](https://github.com/kanaka/wac)** - C
 
-22. **[wasmer](https://github.com/wasmerio/wasmer)** - Rust, Dynasm, Cranelift, LLVM
+21. **[wasmer](https://github.com/wasmerio/wasmer)** - Rust, Dynasm, Cranelift, LLVM
 
-23. **[wasmo](https://github.com/appcypher/wasmo)** - Rust, LLVM
+22. **[wasmo](https://github.com/appcypher/wasmo)** - Rust, LLVM
 
-24. **[py-wasm](https://github.com/ethereum/py-wasm)** - Python
+23. **[py-wasm](https://github.com/ethereum/py-wasm)** - Python
 
-25. **[Lucet](https://github.com/fastly/lucet)** - Rust, Cranelift
+24. **[Lucet](https://github.com/fastly/lucet)** - Rust, Cranelift
 
-26. **[Swam](https://github.com/satabin/swam)** - Scala
+25. **[Swam](https://github.com/satabin/swam)** - Scala
 
-27. **[VMIR](https://github.com/andoma/vmir)** - C
+26. **[VMIR](https://github.com/andoma/vmir)** - C
 
-28. **[WAMR](https://github.com/intel/wasm-micro-runtime)** - C
+27. **[WAMR](https://github.com/intel/wasm-micro-runtime)** - C
 
-29. **[EOSVM](https://github.com/EOSIO/eos-vm)** - C++
+28. **[EOSVM](https://github.com/EOSIO/eos-vm)** - C++
 
-30. **[InNative](https://github.com/innative-sdk/innative)** - C++
+29. **[InNative](https://github.com/innative-sdk/innative)** - C++
 
-31. **[m3](https://github.com/soundandform/m3)** - C
+30. **[m3](https://github.com/soundandform/m3)** - C
 
 ### License
 
