@@ -67,6 +67,8 @@ This file contains a list of non-web wasm runtimes in development in no particul
 
 30. **[m3](https://github.com/soundandform/m3)** - C
 
+31. **[WAVM](https://github.com/WAVM/WAVM)** - C++, LLVM
+
 ### License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
