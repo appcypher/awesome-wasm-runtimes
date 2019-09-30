@@ -24,7 +24,7 @@ This file contains a list of non-web wasm runtimes in development in no particul
 8. **[WasmVM](https://github.com/LuisHsu/WasmVM)** - C++
 
 9. **[Wasm Runtime](https://github.com/kgtkr/wasm-runtime)** - Nodejs
-
+https://github.com/wasmerio/php-ext-wasm
 10. **[Wasm JIT Prototype](https://github.com/WebAssembly/wasm-jit-prototype)** - C++, LLVM
 
 11. **[Motor](https://github.com/penberg/motor)** - Rust
@@ -66,6 +66,9 @@ This file contains a list of non-web wasm runtimes in development in no particul
 29. **[InNative](https://github.com/innative-sdk/innative)** - C++
 
 30. **[m3](https://github.com/soundandform/m3)** - C
+
+31. **[php-ext-wasm](https://github.com/wasmerio/php-ext-wasm)** - PHP
+
 
 ### License
 
