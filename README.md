@@ -1,75 +1,1592 @@
-# WebAssembly Runtimes
-WebAssembly, or wasm for short, is a low-level bytecode format that runs in the browser just like JavaScript.
-It is designed to be faster to parse than JavaScript, as well as faster to execute.
+# Awesome WebAssembly Runtimes ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
-Webassembly is not strictly meant for the web, it is also designed to be used in non-web environment as well.
-This file contains a list of non-web wasm runtimes in development in no particular order. :octocat:
+This repo contains a list of virtual machines and tools that execute the WebAssembly(wasm) format and/or compile it to executable machine code :octocat:
 
-------------------------------------------------------------------------------------------------------
+#### Legend
+:rocket: - Active development</br>
+:sleeping: - Unmaintained (been more than a year since last commit)</br>
 
-1. **[CMM of wasm](https://github.com/SimonJF/cmm_of_wasm)** - Ocaml
+## CONTENTS
+:sleeping: [CMM of Wasm](#cmm)</br>
+:rocket: [EOSVM](#eosvm)</br>
+:sleeping: [FDVM](#fdvm)</br>
+:rocket: [inNative](#innative)</br>
+:sleeping: [Life](#life)</br>
+:rocket: [Lucet](#lucet)</br>
+:rocket: [M3](#m3)</br>
+:sleeping: [Motor](#motor)</br>
+:rocket: [py-wasm](#py-wasm)</br>
+:sleeping: [Serverless Wasm](#serverless-wasm)</br>
+:rocket: [Swam](#swam)</br>
+:sleeping: [VMIR](#vmir)</br>
+:rocket: [wac](#wac)</br>
+:sleeping: [Wagon](#wagon)</br>
+:rocket: [WAKit](#wakit)</br>
+:rocket: [WAMR](#wasm-micro-runtime)</br>
+:rocket: [Warpy](#warpy)</br>
+:rocket: [Wasmer](#wasmer)</br>
+:rocket: [Wasmo](#wasmo)</br>
+:sleeping: [WasmRT](#wasmrt)</br>
+:rocket: [Wasmtime](#wasmtime)</br>
+:sleeping: [WasmVM](#wasmvm1)</br>
+:rocket: [WasmVM](#wasmvm2)</br>
+:rocket: [WAVM](#wavm)</br>
+:sleeping: [WebAssembly](#webassembly)</br>
 
-2. **[Nebulet](https://github.com/nebulet/nebulet)** - Rust, Cranelift (Kernel that runs wasm at ring 0)
+----------------
 
-3. **[serverless-wasm](https://github.com/Geal/serverless-wasm)** - Rust
+## <a name="cmm"></a>[CMM of Wasm](https://github.com/SimonJF/cmm_of_wasm) <sup>[top⇈](#contents)</sup>
+> A compiler from WebAssembly to native code, via the OCaml backend.
 
-4. **[Ice Core](https://github.com/losfair/IceCore)** - Rust
+* **LANGUAGES WRITTEN IN**
 
-5. **[Life](https://github.com/perlin-network/life)** - Go
+    <table>
+    <tr>
+        <td>OCaml</td>
+    </tr>
+    </table>
 
-6. **[wasmi](https://github.com/paritytech/wasmi)** - Rust
+* **COMPILER FRAMEWORK**
 
-7. **[wasmtime](https://github.com/CraneStation/wasmtime)** - Rust, Cranelift
+    <table>
+    <tr>
+        <td>OCaml Compiler</td>
+    </tr>
+    </table>
 
-8. **[WasmVM](https://github.com/LuisHsu/WasmVM)** - C++
 
-9. **[Wasm Runtime](https://github.com/kgtkr/wasm-runtime)** - Nodejs
+* **COMPILATION / EXECUTION MODES**
 
-10. **[WAVM](https://github.com/WAVM/WAVM)** - C++, LLVM
+    <table>
+    <tr>
+        <td>AOT</td>
+    </tr>
+    </table>
 
-11. **[Motor](https://github.com/penberg/motor)** - Rust
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
 
-12. **[FDVM](https://github.com/funcdef/fdvm)** - Nodejs
+    - `N/A`
 
-13. **[WebAssembly](https://github.com/dcodeIO/webassembly)** - Nodejs
+* **NON-MVP FEATURES SUPPORTED**
 
-14. **[WasmRT](https://github.com/rhitchcock/wasmrt)** - C++
+    - `N/A`
 
-15. **[WAKit](https://github.com/akkyie/WAKit)** - Swift
+* **HOST INTERFACES SUPPORTED**
 
-16. **[JumpJet](https://github.com/jawm/jumpjet)** - Rust
+    - `N/A`
 
-17. **[Warpy](https://github.com/kanaka/warpy)** - RPython
+* **NON-WEB STANDARDS**
 
-18. **[Wagon](https://github.com/go-interpreter/wagon)** - Go
+    - [ ] WASI
+    - [ ] wasm-c-api
 
-19. **[Asmble](https://github.com/cretz/asmble)** - Kotlin
+* **USED BY**
 
-20. **[wac/wace](https://github.com/kanaka/wac)** - C
+    - `N/A`
 
-21. **[wasmer](https://github.com/wasmerio/wasmer)** - Rust, Dynasm, Cranelift, LLVM
+* **PLATFORMS SUPPORTED**
 
-22. **[wasmo](https://github.com/appcypher/wasmo)** - Rust, LLVM
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+    </tr>
+    </table>
 
-23. **[py-wasm](https://github.com/ethereum/py-wasm)** - Python
+## <a name="eosvm"></a>[EOSVM](https://github.com/EOSIO/eos-vm) <sup>[top⇈](#contents)</sup>
+> EOS VM is designed from the ground up for the high demands of blockchain applications which require far more from a WebAssembly engine than those designed for web browsers or standards development.
 
-24. **[Lucet](https://github.com/fastly/lucet)** - Rust, Cranelift
+* **LANGUAGES WRITTEN IN**
 
-25. **[Swam](https://github.com/satabin/swam)** - Scala
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
 
-26. **[VMIR](https://github.com/andoma/vmir)** - C
+* **COMPILER FRAMEWORK**
 
-27. **[WAMR](https://github.com/intel/wasm-micro-runtime)** - C
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
 
-28. **[EOSVM](https://github.com/EOSIO/eos-vm)** - C++
 
-29. **[InNative](https://github.com/innative-sdk/innative)** - C++
+* **COMPILATION / EXECUTION MODES**
 
-30. **[m3](https://github.com/soundandform/m3)** - C
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
 
-31. **[wasvm](https://github.com/kogai/wasvm)** - Rust
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
 
-### License
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="fdvm"></a>[FDVM](https://github.com/funcdef/fdvm) <sup>[top⇈](#contents)</sup>
+> WASM runtime to develop server-side WebAssembly applications.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>JavaScript</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>NodeJS(V8)</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+
+## <a name="innative"></a>[inNative](https://github.com/innative-sdk/innative) <sup>[top⇈](#contents)</sup>
+> An AOT (ahead-of-time) compiler for WebAssembly that creates C compatible binaries, either as sandboxed plugins you can dynamically load, or as stand-alone executables that interface directly with the operating system.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>AOT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="life"></a>[Life](https://github.com/perlin-network/life) <sup>[top⇈](#contents)</sup>
+> Life is a secure & fast WebAssembly VM built for decentralized applications, written in Go by Perlin Network.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Go</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="lucet"></a>[Lucet](https://github.com/fastly/lucet) <sup>[top⇈](#contents)</sup>
+> Lucet is a native WebAssembly compiler and runtime. It is designed to safely execute untrusted WebAssembly programs inside your application.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Cranelift</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>AOT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **NON-WEB STANDARDS**
+
+    - [x] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+    </tr>
+    </table>
+
+
+## <a name="m3"></a>[M3/Wasm](https://github.com/soundandform/m3) <sup>[top⇈](#contents)</sup>
+> WebAssembly interpreter written in C using a novel, high performance interpreter topology.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+
+## <a name="motor"></a>[Motor](https://github.com/penberg/motor) <sup>[top⇈](#contents)</sup>
+> Motor is a WebAssembly runtime, which aims for secure and efficient execution of WebAssembly programs
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Dynasm</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+    </tr>
+    </table>
+
+
+## <a name="py-wasm"></a>[py-wasm](https://github.com/ethereum/py-wasm) <sup>[top⇈](#contents)</sup>
+> A python implementation of the WebAssembly interpreter
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Python</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="serverless-wasm"></a>[py-wasm](https://github.com/Geal/serverless-wasm) <sup>[top⇈](#contents)</sup>
+> A small demo of Web Assembly's potential outside of browsers
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Wasmi</td>
+        <td>Cranelift</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="swam"></a>[Swam](https://github.com/satabin/swam) <sup>[top⇈](#contents)</sup>
+> WebAssembly engine in Scala
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Scala</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="vmir"></a>[VMIR](https://github.com/andoma/vmir) <sup>[top⇈](#contents)</sup>
+> VMIR is a standalone library written in C that can parse and execute WebAssembly and LLVM Bitcode files
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="wac"></a>[wac](https://github.com/kanaka/wac) <sup>[top⇈](#contents)</sup>
+> A Minimal WebAssembly interpreter written in C.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="wagon"></a>[wagon](https://github.com/go-interpreter/wagon) <sup>[top⇈](#contents)</sup>
+> Wagon is a WebAssembly-based interpreter in Go, for Go.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Go</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="wakit"></a>[WAKit](https://github.com/akkyie/WAKit) <sup>[top⇈](#contents)</sup>
+> A WebAssembly runtime written in Swift.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Swift</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+    </tr>
+    </table>
+
+## <a name="wamr"></a>[WebAssembly Micro Runtime](https://github.com/intel/wasm-micro-runtime) <sup>[top⇈](#contents)</sup>
+> WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="warpy"></a>[Warpy](https://github.com/kanaka/warpy) <sup>[top⇈](#contents)</sup>
+> WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>RPython</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>RPython</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="wasmer"></a>[Wasmer](https://github.com/wasmerio/wasmer) <sup>[top⇈](#contents)</sup>
+> Wasmer is a standalone WebAssembly runtime for running WebAssembly outside of the browser, supporting WASI and Emscripten.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Cranelift (Primary)</td>
+        <td>Dynasm.rs</td>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    <table>
+    <tr>
+        <td>PHP</td>
+        <td>C</td>
+        <td>C++</td>
+        <td>Python</td>
+        <td>Go</td>
+        <td>PHP</td>
+        <td>Ruby</td>
+        <td>Postgres</td>
+        <td>C#/.Net</td>
+        <td>R</td>
+        <td>Swift</td>
+    </tr>
+    </table>
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    <table>
+    <tr>
+        <td>SIMD</td>
+    </tr>
+    </table>
+
+* **HOST INTERFACES SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Emscripten</td>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **NON-WEB STANDARDS**
+
+    - [x] WASI
+    - [x] wasm-c-api
+
+* **USED BY**
+
+    - [Spacemesh Virtual Machine](https://github.com/spacemeshos/svm) - A Spacemesh smart contracts vm
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wasmo"></a>[Wasmo](https://github.com/appcypher/wasmo) <sup>[top⇈](#contents)</sup>
+> An Embeddable WebAssembly VM
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wasmrt"></a>[wasmrt](https://github.com/rhitchcock/wasmrt) <sup>[top⇈](#contents)</sup>
+> wasmrt is a runtime built for native execution of WebAssembly modules (virtualized at first, eventually JIT).
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wasmtime"></a>[Wasmtime](https://github.com/CraneStation/wasmtime) <sup>[top⇈](#contents)</sup>
+> Wasmtime is a standalone wasm-only runtime for WebAssembly, using the Cranelift JIT
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Cranelift</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    <table>
+    <tr>
+        <td>Python</td>
+    </tr>
+    </table>
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Interface types</td>
+    </tr>
+    </table>
+
+* **HOST INTERFACES SUPPORTED**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **NON-WEB STANDARDS**
+
+    - [x] WASI
+    - [x] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wasmvm1"></a>[WasmVM](https://github.com/WasmVM/WasmVM) <sup>[top⇈](#contents)</sup>
+> An unofficial standalone WebAssembly process virtual machine
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wasmvm2"></a>[wasmvm](https://github.com/kogai/wasvm) <sup>[top⇈](#contents)</sup>
+> WebAssembly Virtual Machine, which aim to fit embedded systems.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>Life</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - [ ] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wavm"></a>[WAVM](https://github.com/WAVM/WAVM) <sup>[top⇈](#contents)</sup>
+> WebAssembly Virtual Machine, which aim to fit embedded systems.
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>C++</td>
+        <td>Python</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Threads</td>
+        <td>SIMD</td>
+        <td>Multiple Result and Block Parameters</td>
+        <td>Exception Handling</td>
+        <td>Name Section</td>
+        <td>Reference Types</td>
+        <td>Bulk Memory Operations</td>
+        <td>Sign Extension Instructions</td>
+    </tr>
+    </table>
+
+* **HOST INTERFACES SUPPORTED**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+        <td>Emscripten</td>
+        <td>WAVIX</td>
+    </tr>
+    </table>
+
+* **NON-WEB STANDARDS**
+
+    - [x] WASI
+    - [ ] wasm-c-api
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="webassembly"></a>[webassembly](https://github.com/dcodeIO/webassembly) <sup>[top⇈](#contents)</sup>
+> An experimental, minimal toolkit and runtime on top of node to produce and run WebAssembly modules
+
+* **LANGUAGES WRITTEN IN**
+
+    <table>
+    <tr>
+        <td>JavaScript</td>
+    </tr>
+    </table>
+
+* **COMPILER FRAMEWORK**
+
+    <table>
+    <tr>
+        <td>NodeJS(V8)</td>
+    </tr>
+    </table>
+
+
+* **COMPILATION / EXECUTION MODES**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **INTEROPERABILITY WITH OTHER LANGUAGES**
+
+    - `N/A`
+
+* **NON-MVP FEATURES SUPPORTED**
+
+    - `N/A`
+
+* **HOST INTERFACES SUPPORTED**
+
+    - `N/A`
+
+* **NON-WEB STANDARDS**
+
+    - `N/A`
+
+* **USED BY**
+
+    - `N/A`
+
+* **PLATFORMS SUPPORTED**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+-------------------
+
+## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
