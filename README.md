@@ -38,7 +38,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="cmm"></a>[CMM of Wasm](https://github.com/SimonJF/cmm_of_wasm) <sup>[top⇈](#contents)</sup>
 > A compiler from WebAssembly to native code, via the OCaml backend.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -46,7 +46,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -55,7 +55,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -63,28 +63,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -96,7 +95,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="eosvm"></a>[EOSVM](https://github.com/EOSIO/eos-vm) <sup>[top⇈](#contents)</sup>
 > EOS VM is designed from the ground up for the high demands of blockchain applications which require far more from a WebAssembly engine than those designed for web browsers or standards development.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -104,7 +103,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -113,7 +112,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -121,28 +120,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -156,7 +154,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="fdvm"></a>[FDVM](https://github.com/funcdef/fdvm) <sup>[top⇈](#contents)</sup>
 > WASM runtime to develop server-side WebAssembly applications.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -164,7 +162,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -173,7 +171,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -181,28 +179,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -217,7 +214,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="innative"></a>[inNative](https://github.com/innative-sdk/innative) <sup>[top⇈](#contents)</sup>
 > An AOT (ahead-of-time) compiler for WebAssembly that creates C compatible binaries, either as sandboxed plugins you can dynamically load, or as stand-alone executables that interface directly with the operating system.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -225,7 +222,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -234,7 +231,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -242,28 +239,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -277,7 +273,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="life"></a>[Life](https://github.com/perlin-network/life) <sup>[top⇈](#contents)</sup>
 > Life is a secure & fast WebAssembly VM built for decentralized applications, written in Go by Perlin Network.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -285,7 +281,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -294,7 +290,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -302,28 +298,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -336,7 +331,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="lucet"></a>[Lucet](https://github.com/fastly/lucet) <sup>[top⇈](#contents)</sup>
 > Lucet is a native WebAssembly compiler and runtime. It is designed to safely execute untrusted WebAssembly programs inside your application.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -344,7 +339,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -353,7 +348,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -361,15 +356,15 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     <table>
     <tr>
@@ -377,16 +372,16 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **NON-WEB STANDARDS**
+* **Non-web standards**
 
     - [x] WASI
     - [ ] wasm-c-api
 
-* **USED BY**
+* **Used by**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Platforms supported**
 
     <table>
     <tr>
@@ -398,7 +393,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="m3"></a>[M3/Wasm](https://github.com/soundandform/m3) <sup>[top⇈](#contents)</sup>
 > WebAssembly interpreter written in C using a novel, high performance interpreter topology.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -406,7 +401,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -415,7 +410,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -423,28 +418,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -459,7 +453,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="motor"></a>[Motor](https://github.com/penberg/motor) <sup>[top⇈](#contents)</sup>
 > Motor is a WebAssembly runtime, which aims for secure and efficient execution of WebAssembly programs
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -467,7 +461,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -476,7 +470,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -484,28 +478,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -518,7 +511,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="py-wasm"></a>[py-wasm](https://github.com/ethereum/py-wasm) <sup>[top⇈](#contents)</sup>
 > A python implementation of the WebAssembly interpreter
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -526,7 +519,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -535,7 +528,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -543,28 +536,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -578,7 +570,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="serverless-wasm"></a>[py-wasm](https://github.com/Geal/serverless-wasm) <sup>[top⇈](#contents)</sup>
 > A small demo of Web Assembly's potential outside of browsers
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -586,7 +578,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -596,7 +588,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -605,28 +597,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -640,7 +631,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="swam"></a>[Swam](https://github.com/satabin/swam) <sup>[top⇈](#contents)</sup>
 > WebAssembly engine in Scala
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -648,7 +639,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -657,7 +648,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -665,28 +656,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -700,7 +690,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="vmir"></a>[VMIR](https://github.com/andoma/vmir) <sup>[top⇈](#contents)</sup>
 > VMIR is a standalone library written in C that can parse and execute WebAssembly and LLVM Bitcode files
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -708,7 +698,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -717,7 +707,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -726,29 +716,28 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
+* **Non-web standards**
 
-    - [ ] WASI
-    - [ ] wasm-c-api
+    - `N/A`
 
-* **USED BY**
+* **Used by**
 
     - `N/A`
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Platforms supported**
 
     <table>
     <tr>
@@ -762,7 +751,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wac"></a>[wac](https://github.com/kanaka/wac) <sup>[top⇈](#contents)</sup>
 > A Minimal WebAssembly interpreter written in C.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -770,7 +759,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -779,7 +768,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -787,28 +776,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -822,7 +810,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wagon"></a>[wagon](https://github.com/go-interpreter/wagon) <sup>[top⇈](#contents)</sup>
 > Wagon is a WebAssembly-based interpreter in Go, for Go.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -830,7 +818,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -839,7 +827,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -847,28 +835,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -882,7 +869,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wakit"></a>[WAKit](https://github.com/akkyie/WAKit) <sup>[top⇈](#contents)</sup>
 > A WebAssembly runtime written in Swift.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -890,7 +877,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -899,7 +886,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -907,28 +894,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -940,7 +926,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wamr"></a>[WebAssembly Micro Runtime](https://github.com/intel/wasm-micro-runtime) <sup>[top⇈](#contents)</sup>
 > WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -948,7 +934,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -957,7 +943,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -965,28 +951,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1000,7 +985,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="warpy"></a>[Warpy](https://github.com/kanaka/warpy) <sup>[top⇈](#contents)</sup>
 > WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1008,7 +993,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1017,7 +1002,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1025,28 +1010,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1060,7 +1044,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wasmer"></a>[Wasmer](https://github.com/wasmerio/wasmer) <sup>[top⇈](#contents)</sup>
 > Wasmer is a standalone WebAssembly runtime for running WebAssembly outside of the browser, supporting WASI and Emscripten.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1069,7 +1053,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1080,7 +1064,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1088,7 +1072,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     <table>
     <tr>
@@ -1106,7 +1090,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     <table>
     <tr>
@@ -1114,7 +1098,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     <table>
     <tr>
@@ -1123,16 +1107,16 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **NON-WEB STANDARDS**
+* **Non-web standards**
 
     - [x] WASI
     - [x] wasm-c-api
 
-* **USED BY**
+* **Used by**
 
     - [Spacemesh Virtual Machine](https://github.com/spacemeshos/svm) - A Spacemesh smart contracts vm
 
-* **PLATFORMS SUPPORTED**
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1145,7 +1129,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wasmo"></a>[Wasmo](https://github.com/appcypher/wasmo) <sup>[top⇈](#contents)</sup>
 > An Embeddable WebAssembly VM
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1153,7 +1137,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1162,7 +1146,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1170,28 +1154,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1204,7 +1187,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wasmrt"></a>[wasmrt](https://github.com/rhitchcock/wasmrt) <sup>[top⇈](#contents)</sup>
 > wasmrt is a runtime built for native execution of WebAssembly modules (virtualized at first, eventually JIT).
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1212,7 +1195,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1221,7 +1204,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1229,28 +1212,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1263,7 +1245,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wasmtime"></a>[Wasmtime](https://github.com/CraneStation/wasmtime) <sup>[top⇈](#contents)</sup>
 > Wasmtime is a standalone wasm-only runtime for WebAssembly, using the Cranelift JIT
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1271,7 +1253,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1280,7 +1262,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1288,7 +1270,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     <table>
     <tr>
@@ -1296,7 +1278,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     <table>
     <tr>
@@ -1304,7 +1286,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     <table>
     <tr>
@@ -1312,16 +1294,16 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **NON-WEB STANDARDS**
+* **Non-web standards**
 
     - [x] WASI
     - [x] wasm-c-api
 
-* **USED BY**
+* **Used by**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1334,7 +1316,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wasmvm1"></a>[WasmVM](https://github.com/WasmVM/WasmVM) <sup>[top⇈](#contents)</sup>
 > An unofficial standalone WebAssembly process virtual machine
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1342,7 +1324,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1351,7 +1333,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1359,28 +1341,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1393,7 +1374,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wasmvm2"></a>[wasmvm](https://github.com/kogai/wasvm) <sup>[top⇈](#contents)</sup>
 > WebAssembly Virtual Machine, which aim to fit embedded systems.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1401,7 +1382,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1410,7 +1391,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1418,28 +1399,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
-
-    - [ ] WASI
-    - [ ] wasm-c-api
-
-* **USED BY**
+* **Non-web standards**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1452,7 +1432,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="wavm"></a>[WAVM](https://github.com/WAVM/WAVM) <sup>[top⇈](#contents)</sup>
 > WebAssembly Virtual Machine, which aim to fit embedded systems.
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1461,7 +1441,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1470,7 +1450,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1478,11 +1458,11 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     <table>
     <tr>
@@ -1497,7 +1477,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     <table>
     <tr>
@@ -1507,16 +1487,15 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **NON-WEB STANDARDS**
+* **Non-web standards**
 
     - [x] WASI
-    - [ ] wasm-c-api
 
-* **USED BY**
+* **Used by**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Platforms supported**
 
     <table>
     <tr>
@@ -1529,7 +1508,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## <a name="webassembly"></a>[webassembly](https://github.com/dcodeIO/webassembly) <sup>[top⇈](#contents)</sup>
 > An experimental, minimal toolkit and runtime on top of node to produce and run WebAssembly modules
 
-* **LANGUAGES WRITTEN IN**
+* **Languages written in**
 
     <table>
     <tr>
@@ -1537,7 +1516,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **COMPILER FRAMEWORK**
+* **Compiler framework**
 
     <table>
     <tr>
@@ -1546,7 +1525,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-* **COMPILATION / EXECUTION MODES**
+* **Compilation / Execution modes**
 
     <table>
     <tr>
@@ -1554,27 +1533,27 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-* **INTEROPERABILITY WITH OTHER LANGUAGES**
+* **Interoperability with other languages**
 
     - `N/A`
 
-* **NON-MVP FEATURES SUPPORTED**
+* **Non-MVP features supported**
 
     - `N/A`
 
-* **HOST INTERFACES SUPPORTED**
+* **Host APIs supported**
 
     - `N/A`
 
-* **NON-WEB STANDARDS**
+* **Non-web standards**
 
     - `N/A`
 
-* **USED BY**
+* **Used by**
 
     - `N/A`
 
-* **PLATFORMS SUPPORTED**
+* **Platforms supported**
 
     <table>
     <tr>
