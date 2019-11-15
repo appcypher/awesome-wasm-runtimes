@@ -924,7 +924,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 ## <a name="warpy"></a>[Warpy](https://github.com/kanaka/warpy) <sup>[top⇈](#contents)</sup>
-> WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
+> WebAssembly interpreter in RPython.
 
 * **Languages written in**
 
