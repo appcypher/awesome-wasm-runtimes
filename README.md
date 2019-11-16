@@ -32,6 +32,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WAVM](#wavm) <sup><sup>:rocket:</sup></sup></br>
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
 - [WebAssembly Micro Runtime](#webassembly-micro-runtime-top) <sup><sup>:rocket:</sup></sup></br>
+- [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
 
 ----------------
 
@@ -1563,6 +1564,65 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
+
+
+## <a name="fdvm"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
+> A tiny and efficient WebAssembly virtual machine.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Customized</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `N/A`
+
+* **Non-web standards**
+
+    - `N/A`
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
 
 -------------------
 
