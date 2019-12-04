@@ -1566,7 +1566,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 
 
-## <a name="fdvm"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
+## <a name="twvm"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
 > A tiny and efficient WebAssembly virtual machine.
 
 * **Languages written in**
@@ -1581,7 +1581,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
     <table>
     <tr>
-        <td>Customized</td>
+        <td>Custom</td>
     </tr>
     </table>
 
