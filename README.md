@@ -450,6 +450,9 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+        <td>Android</td>
+        <td>OpenWRT</td>
+        <td>SBC/MCU</td>
     </tr>
     </table>
 
