@@ -13,7 +13,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
 - [Life](#life) <sup><sup>:rocket:</sup></sup></br>
 - [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
-- [M3](#m3) <sup><sup>:rocket:</sup></sup></br>
+- [wasm3](#wasm3) <sup><sup>:rocket:</sup></sup></br>
 - [Motor](#motor) <sup><sup>:sleeping:</sup></sup></br>
 - [py-wasm](#py-wasm) <sup><sup>:rocket:</sup></sup></br>
 - [Serverless Wasm](#serverless-wasm) <sup><sup>:sleeping:</sup></sup></br>
@@ -391,8 +391,8 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-## <a name="m3"></a>[M3/Wasm](https://github.com/soundandform/m3) <sup>[top⇈](#contents)</sup>
-> WebAssembly interpreter written in C using a novel, high performance interpreter topology.
+## <a name="wasm3"></a>[wasm3/wasm3](https://github.com/wasm3/wasm3) <sup>[top⇈](#contents)</sup>
+> 🚀 A high performance WebAssembly interpreter
 
 * **Languages written in**
 
@@ -429,11 +429,15 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 * **Host APIs supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Non-web standards**
 
-    - `N/A`
+    - [x] WASI
 
 * **Used by**
 
@@ -446,6 +450,9 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+        <td>Android</td>
+        <td>OpenWRT</td>
+        <td>SBC/MCU</td>
     </tr>
     </table>
 
