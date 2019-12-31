@@ -25,6 +25,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 :rocket: [WAMR](#wasm-micro-runtime)</br>
 :rocket: [Warpy](#warpy)</br>
 :rocket: [Wasmer](#wasmer)</br>
+:rocket: [Wasmi](#wasmi)</br>
 :rocket: [Wasmo](#wasmo)</br>
 :sleeping: [WasmRT](#wasmrt)</br>
 :rocket: [Wasmtime](#wasmtime)</br>
@@ -1095,6 +1096,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     <table>
     <tr>
         <td>SIMD</td>
+        <td>Threads</td>
     </tr>
     </table>
 
@@ -1115,6 +1117,64 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 * **Used by**
 
     - [Spacemesh Virtual Machine](https://github.com/spacemeshos/svm) - A Spacemesh smart contracts vm
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wasmi"></a>[Wasmi](https://github.com/paritytech/wasmi) <sup>[top⇈](#contents)</sup>
+> A Wasm interpreter.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `N/A`
+
+* **Non-web standards**
+
+    - `N/A`
+
+* **Used by**
+
+    - `N/A`
 
 * **Platforms supported**
 
