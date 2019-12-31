@@ -7,32 +7,33 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 :sleeping: - Unmaintained (been more than a year since last commit)</br>
 
 ## CONTENTS
-:sleeping: [CMM of Wasm](#cmm)</br>
-:rocket: [EOSVM](#eosvm)</br>
-:sleeping: [FDVM](#fdvm)</br>
-:rocket: [inNative](#innative)</br>
-:sleeping: [Life](#life)</br>
-:rocket: [Lucet](#lucet)</br>
-:rocket: [M3](#m3)</br>
-:sleeping: [Motor](#motor)</br>
-:rocket: [py-wasm](#py-wasm)</br>
-:sleeping: [Serverless Wasm](#serverless-wasm)</br>
-:rocket: [Swam](#swam)</br>
-:sleeping: [VMIR](#vmir)</br>
-:rocket: [wac](#wac)</br>
-:sleeping: [Wagon](#wagon)</br>
-:rocket: [WAKit](#wakit)</br>
-:rocket: [WAMR](#wasm-micro-runtime)</br>
-:rocket: [Warpy](#warpy)</br>
-:rocket: [Wasmer](#wasmer)</br>
-:rocket: [Wasmi](#wasmi)</br>
-:rocket: [Wasmo](#wasmo)</br>
-:sleeping: [WasmRT](#wasmrt)</br>
-:rocket: [Wasmtime](#wasmtime)</br>
-:sleeping: [WasmVM](#wasmvm1)</br>
-:rocket: [WasmVM](#wasmvm2)</br>
-:rocket: [WAVM](#wavm)</br>
-:sleeping: [WebAssembly](#webassembly)</br>
+
+- [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
+- [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
+- [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
+- [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
+- [Life](#life) <sup><sup>:rocket:</sup></sup></br>
+- [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
+- [wasm3](#wasm3) <sup><sup>:rocket:</sup></sup></br>
+- [Motor](#motor) <sup><sup>:sleeping:</sup></sup></br>
+- [py-wasm](#py-wasm) <sup><sup>:rocket:</sup></sup></br>
+- [Serverless Wasm](#serverless-wasm) <sup><sup>:sleeping:</sup></sup></br>
+- [Swam](#swam) <sup><sup>:rocket:</sup></sup></br>
+- [VMIR](#vmir) <sup><sup>:sleeping:</sup></sup></br>
+- [wac](#wac) <sup><sup>:rocket:</sup></sup></br>
+- [Wagon](#wagon) <sup><sup>:rocket:</sup></sup></br>
+- [WAKit](#wakit) <sup><sup>:rocket:</sup></sup></br>
+- [Warpy](#warpy) <sup><sup>:rocket:</sup></sup></br>
+- [Wasmer](#wasmer) <sup><sup>:rocket:</sup></sup></br>
+- [Wasmo](#wasmo) <sup><sup>:rocket:</sup></sup></br>
+- [WasmRT](#wasmrt) <sup><sup>:sleeping:</sup></sup></br>
+- [Wasmtime](#wasmtime) <sup><sup>:rocket:</sup></sup></br>
+- [WasmVM](#wasmvm1) <sup><sup>:rocket:</sup></sup></br>
+- [WasmVM](#wasmvm2) <sup><sup>:rocket:</sup></sup></br>
+- [WAVM](#wavm) <sup><sup>:rocket:</sup></sup></br>
+- [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
+- [WebAssembly Micro Runtime](#webassembly-micro-runtime-top) <sup><sup>:rocket:</sup></sup></br>
+- [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
 
 ----------------
 
@@ -391,8 +392,8 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-## <a name="m3"></a>[M3/Wasm](https://github.com/soundandform/m3) <sup>[top⇈](#contents)</sup>
-> WebAssembly interpreter written in C using a novel, high performance interpreter topology.
+## <a name="wasm3"></a>[wasm3/wasm3](https://github.com/wasm3/wasm3) <sup>[top⇈](#contents)</sup>
+> 🚀 A high performance WebAssembly interpreter
 
 * **Languages written in**
 
@@ -429,11 +430,15 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 * **Host APIs supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Non-web standards**
 
-    - `N/A`
+    - [x] WASI
 
 * **Used by**
 
@@ -446,6 +451,9 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+        <td>Android</td>
+        <td>OpenWRT</td>
+        <td>SBC/MCU</td>
     </tr>
     </table>
 
@@ -568,7 +576,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
-## <a name="serverless-wasm"></a>[py-wasm](https://github.com/Geal/serverless-wasm) <sup>[top⇈](#contents)</sup>
+## <a name="serverless-wasm"></a>[Serverless wasm](https://github.com/Geal/serverless-wasm) <sup>[top⇈](#contents)</sup>
 > A small demo of Web Assembly's potential outside of browsers
 
 * **Languages written in**
@@ -924,67 +932,8 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-## <a name="wamr"></a>[WebAssembly Micro Runtime](https://github.com/intel/wasm-micro-runtime) <sup>[top⇈](#contents)</sup>
-> WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
-
-* **Languages written in**
-
-    <table>
-    <tr>
-        <td>C</td>
-    </tr>
-    </table>
-
-* **Compiler framework**
-
-    <table>
-    <tr>
-        <td>Custom</td>
-    </tr>
-    </table>
-
-
-* **Compilation / Execution modes**
-
-    <table>
-    <tr>
-        <td>Interpreted</td>
-    </tr>
-    </table>
-
-* **Interoperability with other languages**
-
-    - `N/A`
-
-* **Non-MVP features supported**
-
-    - `N/A`
-
-* **Host APIs supported**
-
-    - `N/A`
-
-* **Non-web standards**
-
-    - `N/A`
-
-* **Used by**
-
-    - `N/A`
-
-* **Platforms supported**
-
-    <table>
-    <tr>
-        <td>Linux</td>
-        <td>macOS</td>
-        <td>Windows</td>
-    </tr>
-    </table>
-
-
 ## <a name="warpy"></a>[Warpy](https://github.com/kanaka/warpy) <sup>[top⇈](#contents)</sup>
-> WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
+> WebAssembly interpreter in RPython.
 
 * **Languages written in**
 
@@ -1590,6 +1539,125 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     <table>
     <tr>
         <td>JIT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `N/A`
+
+* **Non-web standards**
+
+    - `N/A`
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="#wamr"></a>[WebAssembly Micro Runtime](https://github.com/intel/wasm-micro-runtime) <sup>[top⇈](#contents)</sup>
+> WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `N/A`
+
+* **Non-web standards**
+
+    - `N/A`
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+
+## <a name="twvm"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
+> A tiny and efficient WebAssembly virtual machine.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
     </tr>
     </table>
 
