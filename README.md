@@ -11,6 +11,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
+- [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
 - [Life](#life) <sup><sup>:rocket:</sup></sup></br>
 - [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
@@ -212,7 +213,78 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </table>
 
 
+## <a name="graalwasm"></a>[GraalWasm](https://github.com/oracle/graal/tree/master/wasm) <sup>[top⇈](#contents)</sup>
+GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret and compile WebAssembly programs in the binary format, or be embedded into other programs.
 
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Java</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>GraalVM</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    <table>
+    <tr>
+        <td>Java</td>
+        <td>JVM</td>
+        <td>Graal supported languages</td>
+    </tr>
+    </table>
+
+* **Non-MVP features supported**
+
+    <table>
+    <tr>
+    </tr>
+    </table>
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Non-web standards**
+
+    - [x] WASI
+    - [ ] wasm-c-api
+
+* **Used by**
+
+    - [GraalVM JavaScript](https://github.com/graalvm/graaljs) - A high performance implementation of the JavaScript programming language.
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+    
 ## <a name="innative"></a>[inNative](https://github.com/innative-sdk/innative) <sup>[top⇈](#contents)</sup>
 > An AOT (ahead-of-time) compiler for WebAssembly that creates C compatible binaries, either as sandboxed plugins you can dynamically load, or as stand-alone executables that interface directly with the operating system.
 
