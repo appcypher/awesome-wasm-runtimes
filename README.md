@@ -1634,7 +1634,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 
 
-## <a name="SSVM"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
+## <a name="TWVM"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
 >A tiny and efficient WebAssembly virtual machine.
 
 * **Languages written in**
@@ -1692,7 +1692,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
-## <a name="SSVM></a>[SSCM](https://github.com/second-state/ssvm) <sup>[top⇈](#contents)</sup>
+## <a name="SSVM"></a>[SSVM](https://github.com/second-state/ssvm) <sup>[top⇈](#contents)</sup>
 > A WebAssembly runtime optimized for server-side applications.
 
 * **Languages written in**
