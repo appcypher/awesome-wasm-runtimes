@@ -34,6 +34,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
 - [WebAssembly Micro Runtime](#webassembly-micro-runtime-top) <sup><sup>:rocket:</sup></sup></br>
 - [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
+- [SSVM](#SSVM) <sup><sup>:rocket:</sup></sup></br>
 
 ----------------
 
@@ -1633,8 +1634,8 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 
 
-## <a name="twvm"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
-> A tiny and efficient WebAssembly virtual machine.
+## <a name="TWVM"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
+>A tiny and efficient WebAssembly virtual machine.
 
 * **Languages written in**
 
@@ -1691,6 +1692,81 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
+## <a name="SSVM"></a>[SSVM](https://github.com/second-state/ssvm) <sup>[top⇈](#contents)</sup>
+> A WebAssembly runtime optimized for server-side applications.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreter</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+   <table>
+    <tr>
+        <td>Solidity</td>
+        <td>Rust</td>
+        <td>C++</td>
+    </tr>
+    </table> 
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table> 
+
+* **Non-web standards**
+
+   <table>
+    <tr>
+        <td>Ethereum Environment Interface</td>
+    </tr>
+    </table> 
+
+* **Used by**
+
+    <table>
+    <tr>
+        <td>Devchain</td>
+    </tr>
+    </table> 
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
 -------------------
 
 ## License
