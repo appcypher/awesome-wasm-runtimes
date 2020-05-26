@@ -289,7 +289,7 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 ## <a name="HappyNewMoonWithReport"></a>[HappyNewMoonWithReport](https://github.com/fishjd/HappyNewMoonWithReport) <sup>[top⇈](#contents)</sup>
 
-Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is typically used to run or test Web Assembly Modules (*.wasm) in Java. 
+Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java. 
 
 * **Languages written in**
 
@@ -339,7 +339,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Used by**
 
-    - 
+    
 
 * **Platforms supported**
 
