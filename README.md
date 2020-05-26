@@ -12,6 +12,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
 - [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
+- [Happy New Moon With Report](#HappyNewMoonWithReport) <sup><sup>:rocket:</sup></sup></br>
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
 - [Life](#life) <sup><sup>:rocket:</sup></sup></br>
 - [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
@@ -283,6 +284,68 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="HappyNewMoonWithReport"></a>[HappyNewMoonWithReport](https://github.com/fishjd/HappyNewMoonWithReport) <sup>[top⇈](#contents)</sup>
+
+Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is typically used to run or test Web Assembly Modules (*.wasm) in Java. 
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Java</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>N/a</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    <table>
+    <tr>
+        <td>Java</td>
+        <td>any JVM language</td>
+    </tr>
+    </table>
+
+* **Non-MVP features supported**
+
+    <table>
+    <tr>
+    	<td>Sign Extensions</td>
+    </tr>
+    </table>
+
+* **Host APIs supported**
+
+    N/A
+
+* **Used by**
+
+    - 
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Any JVM</td>
     </tr>
     </table>
     
