@@ -311,6 +311,7 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
     <table>
     <tr>
         <td>AOT</td>
+        <td>JIT</td>
     </tr>
     </table>
 
@@ -320,11 +321,24 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Non-MVP features supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Threads</td>
+        <td>Multiple Result and Block Parameters</td>
+        <td>Name Section</td>
+        <td>Bulk Memory Operations</td>
+        <td>Sign Extension Instructions</td>
+        <td>Non-trapping Conversion Instructions</td>
+    </tr>
+    </table>
 
 * **Host APIs supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
 
 * **Non-web standards**
 
