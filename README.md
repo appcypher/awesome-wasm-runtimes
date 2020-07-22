@@ -12,6 +12,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
 - [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
+- [Happy New Moon With Report](#happy-new-moon-with-report) <sup><sup>:rocket:</sup></sup></br>
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
 - [Life](#life) <sup><sup>:rocket:</sup></sup></br>
 - [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
@@ -269,8 +270,11 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [ ] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -280,6 +284,67 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
     <table>
     <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="happy-new-moon-with-report"></a>[Happy New Moon With Report](https://github.com/fishjd/HappyNewMoonWithReport) <sup>[top⇈](#contents)</sup>
+
+Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java. 
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Java</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    - `N/A`
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    <table>
+    <tr>
+        <td>Java</td>
+        <td>JVM languages</td>
+    </tr>
+    </table>
+
+* **Non-MVP features supported**
+
+    <table>
+    <tr>
+    	<td>Sign Extensions</td>
+    </tr>
+    </table>
+
+* **Host APIs supported**
+
+    - `N/A`
+
+* **Used by**
+
+    - `N/A`
+    
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>JVM</td>
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
@@ -463,8 +528,11 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [ ] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -525,7 +593,11 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Non-web standards**
 
-    - [x] WASI
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -1147,8 +1219,12 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [x] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+        <td>wasm-c-api</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -1392,8 +1468,12 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [x] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+        <td>wasm-c-api</td>
+    </tr>
+    </table>
 
 * **Used by**
 
