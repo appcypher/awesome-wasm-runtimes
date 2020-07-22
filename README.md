@@ -12,7 +12,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
 - [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
-- [Happy New Moon With Report](#HappyNewMoonWithReport) <sup><sup>:rocket:</sup></sup></br>
+- [Happy New Moon With Report](#happy-new-moon-with-report) <sup><sup>:rocket:</sup></sup></br>
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
 - [Life](#life) <sup><sup>:rocket:</sup></sup></br>
 - [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
@@ -270,8 +270,11 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [ ] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -287,7 +290,7 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
     </tr>
     </table>
 
-## <a name="HappyNewMoonWithReport"></a>[HappyNewMoonWithReport](https://github.com/fishjd/HappyNewMoonWithReport) <sup>[top⇈](#contents)</sup>
+## <a name="happy-new-moon-with-report"></a>[Happy New Moon With Report](https://github.com/fishjd/HappyNewMoonWithReport) <sup>[top⇈](#contents)</sup>
 
 Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java. 
 
@@ -301,12 +304,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Compiler framework**
 
-    <table>
-    <tr>
-        <td>N/a</td>
-    </tr>
-    </table>
-
+    - `N/A`
 
 * **Compilation / Execution modes**
 
@@ -321,7 +319,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <table>
     <tr>
         <td>Java</td>
-        <td>any JVM language</td>
+        <td>JVM languages</td>
     </tr>
     </table>
 
@@ -335,17 +333,21 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Host APIs supported**
 
-    N/A
+    - `N/A`
 
 * **Used by**
 
+    - `N/A`
     
 
 * **Platforms supported**
 
     <table>
     <tr>
-        <td>Any JVM</td>
+        <td>JVM</td>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
     </tr>
     </table>
     
@@ -512,8 +514,11 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [ ] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -574,7 +579,11 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Non-web standards**
 
-    - [x] WASI
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -1196,8 +1205,12 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [x] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+        <td>wasm-c-api</td>
+    </tr>
+    </table>
 
 * **Used by**
 
@@ -1441,8 +1454,12 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Non-web standards**
 
-    - [x] WASI
-    - [x] wasm-c-api
+    <table>
+    <tr>
+        <td>WASI</td>
+        <td>wasm-c-api</td>
+    </tr>
+    </table>
 
 * **Used by**
 
