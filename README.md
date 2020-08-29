@@ -11,6 +11,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
+- [Fizzy](#fizzy) <sup><sup>:rocket:</sup></sup></br>
 - [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
 - [Happy New Moon With Report](#happy-new-moon-with-report) <sup><sup>:rocket:</sup></sup></br>
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
@@ -214,6 +215,66 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     </tr>
     </table>
 
+
+## <a name="fizzy"></a>[Fizzy](https://github.com/wasmx/fizzy) <sup>[top⇈](#contents)</sup>
+> Fizzy aims to be a fast, deterministic, and pedantic WebAssembly interpreter written in C++.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    - `N/A`
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreter</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Non-web standards**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+    </tr>
+    </table>
 
 ## <a name="graalwasm"></a>[GraalWasm](https://github.com/oracle/graal/tree/master/wasm) <sup>[top⇈](#contents)</sup>
 GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret and compile WebAssembly programs in the binary format, or be embedded into other programs.
