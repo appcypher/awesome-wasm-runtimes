@@ -35,7 +35,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WasmVM](#wasmvm2) <sup><sup>:rocket:</sup></sup></br>
 - [WAVM](#wavm) <sup><sup>:rocket:</sup></sup></br>
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
-- [WebAssembly Micro Runtime](#webassembly-micro-runtime-top) <sup><sup>:rocket:</sup></sup></br>
+- [WebAssembly Micro Runtime](#wamr) <sup><sup>:rocket:</sup></sup></br>
 - [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
 - [SSVM](#SSVM) <sup><sup>:rocket:</sup></sup></br>
 
@@ -1801,7 +1801,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </table>
 
 
-## <a name="#wamr"></a>[WebAssembly Micro Runtime](https://github.com/intel/wasm-micro-runtime) <sup>[top⇈](#contents)</sup>
+## <a name="wamr"></a>[WAMR](https://github.com/bytecodealliance/wasm-micro-runtime) <sup>[top⇈](#contents)</sup>
 > WebAssembly Micro Runtime (WAMR) is a standalone WebAssembly (WASM) runtime with small footprint
 
 * **Languages written in**
@@ -1826,6 +1826,8 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <table>
     <tr>
         <td>Interpreted</td>
+        <td>AOT-Modules</td>
+        <td>JIT</td>
     </tr>
     </table>
 
@@ -1835,15 +1837,21 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Non-MVP features supported**
 
-    - `N/A`
+    - [Non-trapping float-to-int conversions](https://github.com/WebAssembly/nontrapping-float-to-int-conversions)
+    - [Sign-extension operators](https://github.com/WebAssembly/sign-extension-ops)
+    - [Bulk memory operations](https://github.com/WebAssembly/bulk-memory-operations)
+    - [Shared memory](https://github.com/WebAssembly/threads/blob/main/proposals/threads/Overview.md#shared-linear-memory)
+    - [Multi-value](https://github.com/WebAssembly/multi-value)
+    - [Tail-call](https://github.com/WebAssembly/tail-call)
+
 
 * **Host APIs supported**
 
-    - `N/A`
+    - [wasm-c-api](https://github.com/WebAssembly/wasm-c-api)
 
 * **Non-web standards**
 
-    - `N/A`
+    - [x] WASI
 
 * **Used by**
 
@@ -1856,12 +1864,18 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+        <td>AliOS-Things</td>
+        <td>Android</td>
+        <td>Linux-SGX</td>
+        <td>Nuttx</td>
+        <td>VxWorks</td>
+        <td>Zephyr</td>
     </tr>
     </table>
 
 
 
-## <a name="TWVM"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
+## <a name="twvm"></a>[TWVM](https://github.com/Becavalier/TWVM) <sup>[top⇈](#contents)</sup>
 >A tiny and efficient WebAssembly virtual machine.
 
 * **Languages written in**
