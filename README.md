@@ -28,7 +28,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WAKit](#wakit) <sup><sup>:rocket:</sup></sup></br>
 - [Warpy](#warpy) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmer](#wasmer) <sup><sup>:rocket:</sup></sup></br>
-- [Wasmo](#wasmo) <sup><sup>:rocket:</sup></sup></br>
+- [Wasmo](#wasmo) <sup><sup>:sleeping:</sup></sup></br>
 - [WasmRT](#wasmrt) <sup><sup>:sleeping:</sup></sup></br>
 - [Wasmtime](#wasmtime) <sup><sup>:rocket:</sup></sup></br>
 - [WasmVM](#wasmvm1) <sup><sup>:rocket:</sup></sup></br>
