@@ -1227,8 +1227,8 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
-        <td>Cranelift (Primary)</td>
-        <td>Dynasm.rs</td>
+        <td>Singlepass</td>
+        <td>Cranelift (Default)</td>
         <td>LLVM</td>
     </tr>
     </table>
@@ -1239,6 +1239,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <table>
     <tr>
         <td>JIT</td>
+        <td>AOT</td>
     </tr>
     </table>
 
@@ -1246,16 +1247,20 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
+        <td>Rust</td>
         <td>PHP</td>
         <td>C</td>
         <td>C++</td>
         <td>Python</td>
         <td>Go</td>
         <td>PHP</td>
+        <td>Java</td>
         <td>Ruby</td>
         <td>Postgres</td>
         <td>C#/.Net</td>
+        <td>Elixir</td>
         <td>R</td>
+        <td>D</td>
         <td>Swift</td>
     </tr>
     </table>
@@ -1264,8 +1269,12 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
-        <td>SIMD</td>
         <td>Threads</td>
+        <td>SIMD</td>
+        <td>Multi Value returns</td>
+        <td>Name Section</td>
+        <td>Bulk Memory Operations</td>
+        <td>Sign Extension Instructions</td>
     </tr>
     </table>
 
@@ -1290,14 +1299,19 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 * **Used by**
 
     - [Spacemesh Virtual Machine](https://github.com/spacemeshos/svm) - A Spacemesh smart contracts vm
+    - [CosmWasm](https://github.com/CosmWasm/cosmwasm) - A Cosmos-compatible library for running wasm smart contracts
+    - [NEAR Protocol](https://github.com/near/nearcore) - The reference client for NEAR protocol
+    - [Dprint](https://github.com/dprint/dprint) - Pluggable and configurable code formatting platform
 
 * **Platforms supported**
 
     <table>
     <tr>
-        <td>Linux</td>
-        <td>macOS</td>
-        <td>Windows</td>
+        <td>Linux (x64, aarch64, x86)</td>
+        <td>macOS (x64, arm64)</td>
+        <td>Windows (x64, x86)</td>
+        <td>FreeBSD (x64)</td>
+        <td>Android</td>
     </tr>
     </table>
 
