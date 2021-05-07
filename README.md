@@ -608,7 +608,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </table>
 
 
-## <a name="wasm3"></a>[wasm3/wasm3](https://github.com/wasm3/wasm3) <sup>[top⇈](#contents)</sup>
+## <a name="wasm3"></a>[Wasm3](https://github.com/wasm3/wasm3) <sup>[top⇈](#contents)</sup>
 > 🚀 A high performance WebAssembly interpreter
 
 * **Languages written in**
@@ -638,17 +638,36 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Interoperability with other languages**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Python</td>
+        <td>C/C++</td>
+        <td>Rust</td>
+        <td>Go</td>
+        <td>Zig</td>
+        <td>Swift</td>
+        <td>C#/.Net</td>
+    </tr>
+    </table>
 
 * **Non-MVP features supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Multi-Value</td>
+        <td>Bulk Memory Operations</td>
+        <td>Sign-extension operators</td>        
+        <td>Non-trapping conversions</td>
+        <td>Name Section</td>
+    </tr>
+    </table>
 
 * **Host APIs supported**
 
     <table>
     <tr>
         <td>WASI</td>
+        <td>Custom</td>
     </tr>
     </table>
 
@@ -657,23 +676,29 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <table>
     <tr>
         <td>WASI</td>
+        <td>Gas Metering</td>
     </tr>
     </table>
 
 * **Used by**
 
-    - `N/A`
+    - [wasmcloud](https://wasmcloud.dev/) - A platform for writing portable business logic
+    - [Shareup](https://shareup.app/) - Fast, private sharing for everyone
+    - [WowCube](https://wowcube.com/) - An nnovative console and the gaming platform
+    - [txiki.js](https://github.com/saghul/txiki.js) -A small and powerful JavaScript runtime
 
 * **Platforms supported**
 
     <table>
     <tr>
-        <td>Linux</td>
-        <td>macOS</td>
         <td>Windows</td>
+        <td>Linux<br/>(any arch)</td>
+        <td>macOS<br/>(any arch)</td>
+        <td>FreeBSD<br/>(any arch)</td>
         <td>Android</td>
         <td>OpenWRT</td>
         <td>SBC/MCU</td>
+        <td>Arduino</td>
     </tr>
     </table>
 
