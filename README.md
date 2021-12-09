@@ -8,6 +8,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 ## CONTENTS
 
+- [aWsm](#awsm) <sup><sup>:rocket:</sup></sup></br>
 - [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
@@ -27,6 +28,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [Wagon](#wagon) <sup><sup>:rocket:</sup></sup></br>
 - [WAKit](#wakit) <sup><sup>:rocket:</sup></sup></br>
 - [Warpy](#warpy) <sup><sup>:rocket:</sup></sup></br>
+- [WasmEdge](#wasmedge) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmer](#wasmer) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmo](#wasmo) <sup><sup>:sleeping:</sup></sup></br>
 - [WasmRT](#wasmrt) <sup><sup>:sleeping:</sup></sup></br>
@@ -37,9 +39,68 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
 - [WebAssembly Micro Runtime](#wamr) <sup><sup>:rocket:</sup></sup></br>
 - [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
-- [SSVM](#SSVM) <sup><sup>:rocket:</sup></sup></br>
 
 ----------------
+
+
+## <a name="awsm"></a>[aWsm](https://github.com/gwsystems/aWsm) <sup>[top⇈](#contents)</sup>
+
+> aWsm is a compiler and runtime for compiling WebAssembly (Wasm) code into llvm bytecode, then into sandboxed binaries you can run on various platforms.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>AOT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `N/A`
+
+* **Non-web standards**
+
+    - `N/A`
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+    </tr>
+    </table>
+
 
 ## <a name="cmm"></a>[CMM of Wasm](https://github.com/SimonJF/cmm_of_wasm) <sup>[top⇈](#contents)</sup>
 > A compiler from WebAssembly to native code, via the OCaml backend.
@@ -1236,6 +1297,82 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </table>
 
 
+## <a name="WasmEdge"></a>[WasmEdge](https://github.com/WasmEdge/WasmEdge) <sup>[top⇈](#contents)</sup>
+> A WebAssembly runtime optimized for server-side applications.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C++</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>LLVM</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreter</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+   <table>
+    <tr>
+        <td>Solidity</td>
+        <td>Rust</td>
+        <td>C++</td>
+    </tr>
+    </table> 
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table> 
+
+* **Non-web standards**
+
+   <table>
+    <tr>
+        <td>Ethereum Environment Interface</td>
+    </tr>
+    </table> 
+
+* **Used by**
+
+    <table>
+    <tr>
+        <td>Devchain</td>
+    </tr>
+    </table> 
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
 ## <a name="wasmer"></a>[Wasmer](https://github.com/wasmerio/wasmer) <sup>[top⇈](#contents)</sup>
 > Wasmer is a standalone WebAssembly runtime for running WebAssembly outside of the browser, supporting WASI and Emscripten.
 
@@ -1972,81 +2109,6 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </tr>
     </table>
 
-## <a name="SSVM"></a>[SSVM](https://github.com/second-state/ssvm) <sup>[top⇈](#contents)</sup>
-> A WebAssembly runtime optimized for server-side applications.
-
-* **Languages written in**
-
-    <table>
-    <tr>
-        <td>C++</td>
-    </tr>
-    </table>
-
-* **Compiler framework**
-
-    <table>
-    <tr>
-        <td>LLVM</td>
-    </tr>
-    </table>
-
-
-* **Compilation / Execution modes**
-
-    <table>
-    <tr>
-        <td>Interpreter</td>
-    </tr>
-    </table>
-
-* **Interoperability with other languages**
-
-   <table>
-    <tr>
-        <td>Solidity</td>
-        <td>Rust</td>
-        <td>C++</td>
-    </tr>
-    </table> 
-
-* **Non-MVP features supported**
-
-    - `N/A`
-
-* **Host APIs supported**
-
-    <table>
-    <tr>
-        <td>WASI</td>
-    </tr>
-    </table> 
-
-* **Non-web standards**
-
-   <table>
-    <tr>
-        <td>Ethereum Environment Interface</td>
-    </tr>
-    </table> 
-
-* **Used by**
-
-    <table>
-    <tr>
-        <td>Devchain</td>
-    </tr>
-    </table> 
-
-* **Platforms supported**
-
-    <table>
-    <tr>
-        <td>Linux</td>
-        <td>macOS</td>
-        <td>Windows</td>
-    </tr>
-    </table>
 -------------------
 
 ## License
