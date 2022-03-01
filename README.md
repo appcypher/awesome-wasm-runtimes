@@ -30,7 +30,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [Warpy](#warpy) <sup><sup>:rocket:</sup></sup></br>
 - [WasmEdge](#wasmedge) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmer](#wasmer) <sup><sup>:rocket:</sup></sup></br>
-- [Wasmo](#wasmo) <sup><sup>:sleeping:</sup></sup></br>
+- [Wasmo](#wasmo) <sup><sup>:rocket:</sup></sup></br>
 - [WasmRT](#wasmrt) <sup><sup>:sleeping:</sup></sup></br>
 - [Wasmtime](#wasmtime) <sup><sup>:rocket:</sup></sup></br>
 - [WasmVM](#wasmvm1) <sup><sup>:rocket:</sup></sup></br>
@@ -606,6 +606,8 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 ## <a name="lucet"></a>[Lucet](https://github.com/fastly/lucet) <sup>[top⇈](#contents)</sup>
 > Lucet is a native WebAssembly compiler and runtime. It is designed to safely execute untrusted WebAssembly programs inside your application.
+
+> NOTE: Lucet is now in maintenance mode. Work has been moved to [wasmtime](https://github.com/bytecodealliance/wasmtime/).
 
 * **Languages written in**
 
@@ -1536,7 +1538,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </table>
 
 ## <a name="wasmo"></a>[Wasmo](https://github.com/appcypher/wasmo) <sup>[top⇈](#contents)</sup>
-> An Embeddable WebAssembly VM
+> A WebAssembly Runtime and Compiler based on LLVM.
 
 * **Languages written in**
 
