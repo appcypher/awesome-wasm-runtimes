@@ -16,25 +16,26 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
 - [Happy New Moon With Report](#happy-new-moon-with-report) <sup><sup>:rocket:</sup></sup></br>
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
-- [Life](#life) <sup><sup>:rocket:</sup></sup></br>
+- [Life](#life) <sup><sup>:sleeping:</sup></sup></br>
 - [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
 - [wasm3](#wasm3) <sup><sup>:rocket:</sup></sup></br>
 - [Motor](#motor) <sup><sup>:sleeping:</sup></sup></br>
-- [py-wasm](#py-wasm) <sup><sup>:rocket:</sup></sup></br>
+- [py-wasm](#py-wasm) <sup><sup>:sleeping:</sup></sup></br>
 - [Serverless Wasm](#serverless-wasm) <sup><sup>:sleeping:</sup></sup></br>
 - [Swam](#swam) <sup><sup>:rocket:</sup></sup></br>
 - [VMIR](#vmir) <sup><sup>:sleeping:</sup></sup></br>
-- [wac](#wac) <sup><sup>:rocket:</sup></sup></br>
+- [wac](#wac) <sup><sup>:sleeping:</sup></sup></br>
 - [Wagon](#wagon) <sup><sup>:rocket:</sup></sup></br>
 - [WAKit](#wakit) <sup><sup>:rocket:</sup></sup></br>
-- [Warpy](#warpy) <sup><sup>:rocket:</sup></sup></br>
+- [Warpy](#warpy) <sup><sup>:sleeping:</sup></sup></br>
 - [WasmEdge](#wasmedge) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmer](#wasmer) <sup><sup>:rocket:</sup></sup></br>
+- [Wasmi](#wasmi) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmo](#wasmo) <sup><sup>:rocket:</sup></sup></br>
 - [WasmRT](#wasmrt) <sup><sup>:sleeping:</sup></sup></br>
 - [Wasmtime](#wasmtime) <sup><sup>:rocket:</sup></sup></br>
 - [WasmVM](#wasmvm1) <sup><sup>:rocket:</sup></sup></br>
-- [WasmVM](#wasmvm2) <sup><sup>:rocket:</sup></sup></br>
+- [WasmVM](#wasmvm2) <sup><sup>:sleeping:</sup></sup></br>
 - [WAVM](#wavm) <sup><sup>:rocket:</sup></sup></br>
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
 - [WebAssembly Micro Runtime](#wamr) <sup><sup>:rocket:</sup></sup></br>
@@ -1299,7 +1300,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </table>
 
 
-## <a name="WasmEdge"></a>[WasmEdge](https://github.com/WasmEdge/WasmEdge) <sup>[top⇈](#contents)</sup>
+## <a name="wasmedge"></a>[WasmEdge](https://github.com/WasmEdge/WasmEdge) <sup>[top⇈](#contents)</sup>
 > A WebAssembly runtime optimized for server-side applications.
 
 * **Languages written in**
