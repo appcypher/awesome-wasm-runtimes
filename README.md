@@ -1325,8 +1325,6 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <table>
     <tr>
         <td>Interpreter</td>
-    </tr>
-     <tr>
         <td>AOT</td>
     </tr>
     </table>
@@ -1337,10 +1335,14 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <tr>
         <td>Solidity</td>
         <td>Rust</td>
-        <td>C++</td>
-        <td>Go</td>
+        <td>C/C++</td>
+        <td>Go/TinyGo</td>
         <td>JavaScript</td>
         <td>Python</td>
+        <td>Grain</td>
+        <td>Swift</td>
+        <td>Zig</td>
+        <td>Ruby</td>
     </tr>
     </table> 
 
@@ -1354,6 +1356,8 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Multi-value</td>
         <td>Reference Types</td>
         <td>Sign Extension Instructions</td>
+        <td>Non-trapping float-to-int conversions</td>
+        <td>Import & export of mutable globals</td>
     </tr>
     </table>
 
@@ -1364,6 +1368,8 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>WASI</td>
         <td>Networking Socket</td>
         <td>TensorFlow</td>
+        <td>Command Interface</td>
+        <td>Image processing</td>
     </tr>
     </table> 
 
@@ -1371,9 +1377,11 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
    <table>
     <tr>
-        <td>Ethereum Environment Interface</td>
         <td>WASI</td>
         <td>Gas Metering</td>
+        <td>Ethereum Environment Interface</td>
+        <td>Oasis</td>
+        <td>Substrate</td>
     </tr>
     </table> 
 
@@ -1381,11 +1389,14 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
-        <td>Suborbital</td>
-        <td>crun</td>
-        <td>SuperEdge</td>
-        <td>OpenYurt</td>
-        <td>Dapr</td>
+        <td>[Suborbital](https://blog.suborbital.dev/suborbital-wasmedge)</td>
+        <td>[crun](https://github.com/containers/crun/pull/774)</td>
+        <td>[SuperEdge](https://github.com/superedge/superedge/pull/335)</td>
+        <td>[OpenYurt](https://github.com/openyurtio/openyurt.io/pull/85)</td>
+        <td>[Dapr](https://www.infoq.com/articles/webassembly-dapr-wasmedge/)</td>
+        <td>[Yomo](https://github.com/yomorun/yomo-wasmedge-tensorflow)</td>
+        <td>[Substrate Ewasm Pallet](https://github.com/ParaState/pallet-ssvm)</td>
+        <td>[Oasis ETH ParaTime](https://medium.com/oasis-protocol-project/the-oasis-eth-paratime-is-live-on-mainnet-33d8713ec870)</td>
     </tr>
     </table> 
 
