@@ -1385,7 +1385,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </tr>
     </table> 
 
-* **Used by**
+* **Used by (Integration)**
 
     <table>
     <tr>
@@ -1395,6 +1395,13 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>[OpenYurt](https://github.com/openyurtio/openyurt.io/pull/85)</td>
         <td>[Dapr](https://www.infoq.com/articles/webassembly-dapr-wasmedge/)</td>
         <td>[Yomo](https://github.com/yomorun/yomo-wasmedge-tensorflow)</td>
+        <td>[React](https://wasmedge.org/book/en/dev/js/ssr.html)</td>
+        <td>[Percy](https://wasmedge.org/book/en/dev/rust/ssr.html)</td>
+        <td>[Poem](https://github.com/WasmEdge/WasmEdge/pull/1018)</td>
+        <td>[Nebula Graph](https://www.secondstate.io/articles/udf-saas-extension/)</td>
+        <td>[Deno](https://www.infoq.com/articles/deno-loves-webassembly/)</td>
+        <td>[Node.js](https://www.secondstate.io/articles/getting-started-with-rust-function/)</td>
+        <td>[Tencent Serverless](https://www.freecodecamp.org/news/rust-webassembly-serverless-tencent-cloud/)</td>
         <td>[Substrate Ewasm Pallet](https://github.com/ParaState/pallet-ssvm)</td>
         <td>[Oasis ETH ParaTime](https://medium.com/oasis-protocol-project/the-oasis-eth-paratime-is-live-on-mainnet-33d8713ec870)</td>
     </tr>
