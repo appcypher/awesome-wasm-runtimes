@@ -1301,7 +1301,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 
 ## <a name="wasmedge"></a>[WasmEdge](https://github.com/WasmEdge/WasmEdge) <sup>[top⇈](#contents)</sup>
-> A WebAssembly runtime optimized for server-side applications.
+> A lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. Project under CNCF.
 
 * **Languages written in**
 
@@ -1326,6 +1326,9 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <tr>
         <td>Interpreter</td>
     </tr>
+     <tr>
+        <td>AOT</td>
+    </tr>
     </table>
 
 * **Interoperability with other languages**
@@ -1335,18 +1338,32 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Solidity</td>
         <td>Rust</td>
         <td>C++</td>
+        <td>Go</td>
+        <td>JavaScript</td>
+        <td>Python</td>
     </tr>
     </table> 
 
 * **Non-MVP features supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Bulk Memory Operations</td>
+        <td>SIMD</td>
+        <td>Multi-memories proposal</td>
+        <td>Multi-value</td>
+        <td>Reference Types</td>
+        <td>Sign Extension Instructions</td>
+    </tr>
+    </table>
 
 * **Host APIs supported**
 
     <table>
     <tr>
         <td>WASI</td>
+        <td>Networking Socket</td>
+        <td>TensorFlow</td>
     </tr>
     </table> 
 
@@ -1355,6 +1372,8 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
    <table>
     <tr>
         <td>Ethereum Environment Interface</td>
+        <td>WASI</td>
+        <td>Gas Metering</td>
     </tr>
     </table> 
 
@@ -1362,7 +1381,11 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
-        <td>Devchain</td>
+        <td>Suborbital</td>
+        <td>crun</td>
+        <td>SuperEdge</td>
+        <td>OpenYurt</td>
+        <td>Dapr</td>
     </tr>
     </table> 
 
@@ -1373,6 +1396,9 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+        <td>Android</td>
+        <td>OpenHarmony</td>
+        <td>seL4 RTOS</td>
     </tr>
     </table>
 
