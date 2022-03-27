@@ -1622,9 +1622,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
-        <td>Linux</td>
         <td>macOS</td>
-        <td>Windows</td>
     </tr>
     </table>
 
