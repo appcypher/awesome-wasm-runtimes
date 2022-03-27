@@ -1301,7 +1301,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 
 ## <a name="wasmedge"></a>[WasmEdge](https://github.com/WasmEdge/WasmEdge) <sup>[top⇈](#contents)</sup>
-> A WebAssembly runtime optimized for server-side applications.
+> A lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. Project under CNCF.
 
 * **Languages written in**
 
@@ -1325,6 +1325,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <table>
     <tr>
         <td>Interpreter</td>
+        <td>AOT</td>
     </tr>
     </table>
 
@@ -1334,19 +1335,41 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <tr>
         <td>Solidity</td>
         <td>Rust</td>
-        <td>C++</td>
+        <td>C/C++</td>
+        <td>Go/TinyGo</td>
+        <td>JavaScript</td>
+        <td>Python</td>
+        <td>Grain</td>
+        <td>Swift</td>
+        <td>Zig</td>
+        <td>Ruby</td>
     </tr>
     </table> 
 
 * **Non-MVP features supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Bulk Memory Operations</td>
+        <td>SIMD</td>
+        <td>Multi-memories proposal</td>
+        <td>Multi-value</td>
+        <td>Reference Types</td>
+        <td>Sign Extension Instructions</td>
+        <td>Non-trapping float-to-int conversions</td>
+        <td>Import & export of mutable globals</td>
+    </tr>
+    </table>
 
 * **Host APIs supported**
 
     <table>
     <tr>
         <td>WASI</td>
+        <td>Networking Socket</td>
+        <td>TensorFlow</td>
+        <td>Command Interface</td>
+        <td>Image processing</td>
     </tr>
     </table> 
 
@@ -1354,15 +1377,33 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
    <table>
     <tr>
+        <td>WASI</td>
+        <td>Gas Metering</td>
         <td>Ethereum Environment Interface</td>
+        <td>Oasis</td>
+        <td>Substrate</td>
     </tr>
     </table> 
 
-* **Used by**
+* **Used by (Integration)**
 
     <table>
     <tr>
-        <td>Devchain</td>
+        <td>[Suborbital](https://blog.suborbital.dev/suborbital-wasmedge)</td>
+        <td>[crun](https://github.com/containers/crun/pull/774)</td>
+        <td>[SuperEdge](https://github.com/superedge/superedge/pull/335)</td>
+        <td>[OpenYurt](https://github.com/openyurtio/openyurt.io/pull/85)</td>
+        <td>[Dapr](https://www.infoq.com/articles/webassembly-dapr-wasmedge/)</td>
+        <td>[Yomo](https://github.com/yomorun/yomo-wasmedge-tensorflow)</td>
+        <td>[React](https://wasmedge.org/book/en/dev/js/ssr.html)</td>
+        <td>[Percy](https://wasmedge.org/book/en/dev/rust/ssr.html)</td>
+        <td>[Poem](https://github.com/WasmEdge/WasmEdge/pull/1018)</td>
+        <td>[Nebula Graph](https://www.secondstate.io/articles/udf-saas-extension/)</td>
+        <td>[Deno](https://www.infoq.com/articles/deno-loves-webassembly/)</td>
+        <td>[Node.js](https://www.secondstate.io/articles/getting-started-with-rust-function/)</td>
+        <td>[Tencent Serverless](https://www.freecodecamp.org/news/rust-webassembly-serverless-tencent-cloud/)</td>
+        <td>[Substrate Ewasm Pallet](https://github.com/ParaState/pallet-ssvm)</td>
+        <td>[Oasis ETH ParaTime](https://medium.com/oasis-protocol-project/the-oasis-eth-paratime-is-live-on-mainnet-33d8713ec870)</td>
     </tr>
     </table> 
 
@@ -1373,6 +1414,9 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+        <td>Android</td>
+        <td>OpenHarmony</td>
+        <td>seL4 RTOS</td>
     </tr>
     </table>
 
