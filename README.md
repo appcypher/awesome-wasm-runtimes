@@ -25,7 +25,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [Swam](#swam) <sup><sup>:rocket:</sup></sup></br>
 - [VMIR](#vmir) <sup><sup>:sleeping:</sup></sup></br>
 - [wac](#wac) <sup><sup>:sleeping:</sup></sup></br>
-- [Wagon](#wagon) <sup><sup>:rocket:</sup></sup></br>
+- [Wagon](#wagon) <sup><sup>:sleeping:</sup></sup></br>
 - [WAKit](#wakit) <sup><sup>:rocket:</sup></sup></br>
 - [Warpy](#warpy) <sup><sup>:sleeping:</sup></sup></br>
 - [WasmEdge](#wasmedge) <sup><sup>:rocket:</sup></sup></br>
@@ -40,6 +40,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
 - [WebAssembly Micro Runtime](#wamr) <sup><sup>:rocket:</sup></sup></br>
 - [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
+- [wazero](#wazero) <sup><sup>:rocket:</sup></sup></br>
 
 ----------------
 
@@ -2127,6 +2128,81 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 * **Non-web standards**
 
     - `N/A`
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+
+## <a name="wazero"></a>[wazero](https://github.com/tetratelabs/wazero) <sup>[top⇈](#contents)</sup>
+> wazero is a WebAssembly 1.0 spec compliant runtime written in Go, with zero platform dependencies.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Go</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    <table>
+    <tr>
+        <td>Import/Export of Mutable Globals</td>
+        <td>Sign-extension operators</td>
+        <td>Multi-Value Returns</td>
+    </tr>
+    </table>
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Non-web standards**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
