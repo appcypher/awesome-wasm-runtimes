@@ -2185,6 +2185,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Import/Export of Mutable Globals</td>
         <td>Sign-extension operators</td>
         <td>Multi-Value Returns</td>
+        <td>Non-trapping float-to-int conversions</td>
     </tr>
     </table>
 
@@ -2206,17 +2207,20 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Used by**
 
-    - `N/A`
+    - [wapc-go](https://github.com/wapc/wapc-go) - WebAssembly Host Runtime for waPC-compliant modules
 
 * **Platforms supported**
 
+    JIT:
     <table>
     <tr>
-        <td>Linux</td>
-        <td>macOS</td>
-        <td>Windows</td>
+        <td>amd64</td>
+        <td>arm64</td>
     </tr>
     </table>
+    
+    Interpretted:
+    - All platforms targetted by the Go compiler.
 
 -------------------
 
