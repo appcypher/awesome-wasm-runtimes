@@ -25,7 +25,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [Swam](#swam) <sup><sup>:rocket:</sup></sup></br>
 - [VMIR](#vmir) <sup><sup>:sleeping:</sup></sup></br>
 - [wac](#wac) <sup><sup>:sleeping:</sup></sup></br>
-- [Wagon](#wagon) <sup><sup>:rocket:</sup></sup></br>
+- [Wagon](#wagon) <sup><sup>:sleeping:</sup></sup></br>
 - [WAKit](#wakit) <sup><sup>:rocket:</sup></sup></br>
 - [Warpy](#warpy) <sup><sup>:sleeping:</sup></sup></br>
 - [WasmEdge](#wasmedge) <sup><sup>:rocket:</sup></sup></br>
@@ -40,6 +40,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
 - [WebAssembly Micro Runtime](#wamr) <sup><sup>:rocket:</sup></sup></br>
 - [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
+- [wazero](#wazero) <sup><sup>:rocket:</sup></sup></br>
 
 ----------------
 
@@ -415,7 +416,7 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 ## <a name="happy-new-moon-with-report"></a>[Happy New Moon With Report](https://github.com/fishjd/HappyNewMoonWithReport) <sup>[top⇈](#contents)</sup>
 
-Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java. 
+Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java.
 
 * **Languages written in**
 
@@ -461,7 +462,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 * **Used by**
 
     - `N/A`
-    
+
 
 * **Platforms supported**
 
@@ -473,7 +474,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Windows</td>
     </tr>
     </table>
-    
+
 ## <a name="innative"></a>[inNative](https://github.com/innative-sdk/innative) <sup>[top⇈](#contents)</sup>
 > An AOT (ahead-of-time) compiler for WebAssembly that creates C compatible binaries, either as sandboxed plugins you can dynamically load, or as stand-alone executables that interface directly with the operating system.
 
@@ -720,7 +721,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <tr>
         <td>Multi-Value</td>
         <td>Bulk Memory Operations</td>
-        <td>Sign-extension operators</td>        
+        <td>Sign-extension operators</td>
         <td>Non-trapping conversions</td>
         <td>Name Section</td>
     </tr>
@@ -1344,7 +1345,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Zig</td>
         <td>Ruby</td>
     </tr>
-    </table> 
+    </table>
 
 * **Non-MVP features supported**
 
@@ -1371,7 +1372,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Command Interface</td>
         <td>Image Processing</td>
     </tr>
-    </table> 
+    </table>
 
 * **Non-web standards**
 
@@ -1383,7 +1384,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Oasis</td>
         <td>Substrate</td>
     </tr>
-    </table> 
+    </table>
 
 * **Used by**
 
@@ -2142,6 +2143,81 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </tr>
     </table>
 
+
+
+## <a name="wazero"></a>[wazero](https://wazero.io) <sup>[top⇈](#contents)</sup>
+> wazero is a WebAssembly 1.0 spec compliant runtime written in Go, with zero platform dependencies.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Go</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    <table>
+    <tr>
+        <td>Import/Export of Mutable Globals</td>
+        <td>Sign-extension operators</td>
+        <td>Multi-Value Returns</td>
+        <td>Non-trapping float-to-int conversions</td>
+    </tr>
+    </table>
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Non-web standards**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Used by**
+
+    - [wapc-go](https://github.com/wapc/wapc-go) - WebAssembly Host Runtime for waPC-compliant modules
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux (amd64, arm64, riscv64)</td>
+        <td>macOs (amd64)</td>
+        <td>Windows (amd64)</td>
+    </tr>
+    </table>
 -------------------
 
 ## License
