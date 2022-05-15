@@ -416,7 +416,7 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 ## <a name="happy-new-moon-with-report"></a>[Happy New Moon With Report](https://github.com/fishjd/HappyNewMoonWithReport) <sup>[top⇈](#contents)</sup>
 
-Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java. 
+Happy New Moon with Report is an open-source implementation of WebAssembly written entirely in Java. It is used to run or test Web Assembly Modules (*.wasm) in Java.
 
 * **Languages written in**
 
@@ -462,7 +462,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 * **Used by**
 
     - `N/A`
-    
+
 
 * **Platforms supported**
 
@@ -474,7 +474,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Windows</td>
     </tr>
     </table>
-    
+
 ## <a name="innative"></a>[inNative](https://github.com/innative-sdk/innative) <sup>[top⇈](#contents)</sup>
 > An AOT (ahead-of-time) compiler for WebAssembly that creates C compatible binaries, either as sandboxed plugins you can dynamically load, or as stand-alone executables that interface directly with the operating system.
 
@@ -721,7 +721,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     <tr>
         <td>Multi-Value</td>
         <td>Bulk Memory Operations</td>
-        <td>Sign-extension operators</td>        
+        <td>Sign-extension operators</td>
         <td>Non-trapping conversions</td>
         <td>Name Section</td>
     </tr>
@@ -1345,7 +1345,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Zig</td>
         <td>Ruby</td>
     </tr>
-    </table> 
+    </table>
 
 * **Non-MVP features supported**
 
@@ -1372,7 +1372,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Command Interface</td>
         <td>Image Processing</td>
     </tr>
-    </table> 
+    </table>
 
 * **Non-web standards**
 
@@ -1384,7 +1384,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Oasis</td>
         <td>Substrate</td>
     </tr>
-    </table> 
+    </table>
 
 * **Used by**
 
@@ -2211,17 +2211,13 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Platforms supported**
 
-    JIT:
     <table>
     <tr>
-        <td>amd64</td>
-        <td>arm64</td>
+        <td>Linux (amd64, arm64, riscv64)</td>
+        <td>macOs (amd64)</td>
+        <td>Windows (amd64)</td>
     </tr>
     </table>
-    
-    Interpretted:
-    - All platforms targetted by the Go compiler.
-
 -------------------
 
 ## License
