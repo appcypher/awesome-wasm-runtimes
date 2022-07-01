@@ -2216,7 +2216,6 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     - [trivy](https://github.com/aquasecurity/trivy) - vulnerability/misconfiguration/secret scanner for containers and other artifacts
     - [wapc-go](https://github.com/wapc/wapc-go) - WebAssembly Host Runtime for waPC-compliant modules
 
-
 * **Platforms supported**
 
     <table>
