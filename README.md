@@ -53,6 +53,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
     <table>
     <tr>
+        <td>Rust</td>
         <td>C</td>
     </tr>
     </table>
@@ -76,7 +77,11 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 * **Interoperability with other languages**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>C</td>
+    </tr>
+    </table>
 
 * **Non-MVP features supported**
 
