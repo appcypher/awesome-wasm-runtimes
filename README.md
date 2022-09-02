@@ -2146,7 +2146,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 
 ## <a name="wazero"></a>[wazero](https://wazero.io) <sup>[top⇈](#contents)</sup>
-> wazero is a WebAssembly 1.0 spec compliant runtime written in Go, with zero platform dependencies.
+> wazero is a WebAssembly 1.0 and 2.0 spec compliant runtime written in Go, with zero platform dependencies.
 
 * **Languages written in**
 
@@ -2182,10 +2182,14 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
+        <td>Bulk Memory Operations</td>
         <td>Import/Export of Mutable Globals</td>
         <td>Sign-extension operators</td>
         <td>Multi-Value Returns</td>
+        <td>Name Section</td>
         <td>Non-trapping float-to-int conversions</td>
+        <td>Reference Types</td>
+        <td>SIMD</td>
     </tr>
     </table>
 
@@ -2193,6 +2197,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
     <table>
     <tr>
+        <td>AssemblyScript</td>
         <td>WASI</td>
     </tr>
     </table>
@@ -2207,12 +2212,15 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Used by**
 
+    - [dapr](https://github.com/dapr/dapr) - APIs that simplify microservice connectivity
+    - [trivy](https://github.com/aquasecurity/trivy) - vulnerability/misconfiguration/secret scanner for containers and other artifacts
     - [wapc-go](https://github.com/wapc/wapc-go) - WebAssembly Host Runtime for waPC-compliant modules
 
 * **Platforms supported**
 
     <table>
     <tr>
+        <td>FreeBSD (amd64)</td>
         <td>Linux (amd64, arm64, riscv64)</td>
         <td>macOs (amd64)</td>
         <td>Windows (amd64)</td>
