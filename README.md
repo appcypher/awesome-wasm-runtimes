@@ -10,6 +10,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
 - [aWsm](#awsm) <sup><sup>:rocket:</sup></sup></br>
 - [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
+- [Enarx](#enarx) <sup><sup>:rocket:</sup></sup></br>
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
 - [Fizzy](#fizzy) <sup><sup>:rocket:</sup></sup></br>
@@ -163,6 +164,76 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     <tr>
         <td>Linux</td>
         <td>macOS</td>
+    </tr>
+    </table>
+
+## <a name="enarx"></a>[Enarx](https://enarx.dev) <sup>[top⇈](#contents)</sup>
+> Enarx is a leading open source framework for running applications in TEEs (Trusted Execution Environments). It manages the creation of these TEEs – referred to as "Keeps" – providing cryptographic confidence that they are using valid CPU hardware. It encrypts and provisions applications and data using one-time cryptographic keys. The applications run without any of the layers in the stack (e.g. hypervisor, kernel, user-space, middleware) being able to look into or alter the Keep or its contents. 
+>
+> It executes the WebAssembly format using [Wasmtime](#wasmtime) inside of the Keep.
+>
+> You can run examples or try your own Wasm files online here: https://try.enarx.dev
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Cranelift</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Non-web standards**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
     </tr>
     </table>
 
@@ -1753,7 +1824,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Used by**
 
-    - `N/A`
+    - [Enarx](#enarx)
 
 * **Platforms supported**
 
