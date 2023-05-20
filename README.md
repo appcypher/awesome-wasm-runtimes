@@ -1552,7 +1552,18 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Non-MVP features supported**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Mutable Globals</td>
+        <td>Sign-extension operators</td>
+        <td>Non-trapping conversions</td>
+        <td>Multi-Value</td>
+        <td>Bulk Memory Operations</td>
+        <td>Reference Types</td>
+        <td>Tail Calls</td>
+        <td>Extended Const</td>
+    </tr>
+    </table>
 
 * **Host APIs supported**
 
@@ -1560,11 +1571,21 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 * **Non-web standards**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
 
 * **Used by**
 
-    - `N/A`
+    <table>
+    <tr>
+        <td>Substrate</td>
+        <td>smoldot</td>
+        <td>Ayaka Game Engine</td>
+    </tr>
+    </table>
 
 * **Platforms supported**
 
@@ -1573,6 +1594,7 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         <td>Linux</td>
         <td>macOS</td>
         <td>Windows</td>
+        <td>WebAssembly</td>
     </tr>
     </table>
 
