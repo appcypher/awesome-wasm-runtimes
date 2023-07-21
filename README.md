@@ -11,6 +11,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [aWsm](#awsm) <sup><sup>:rocket:</sup></sup></br>
 - [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
+- [Extism](#extism) <sup><sup>:rocket:</sup></sup></br>
 - [FDVM](#fdvm) <sup><sup>:sleeping:</sup></sup></br>
 - [Fizzy](#fizzy) <sup><sup>:rocket:</sup></sup></br>
 - [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
@@ -213,6 +214,80 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 * **Used by**
 
     - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+
+## <a name="extism"></a>[Extism](https://github.com/extism/extism) <sup>[top⇈](#contents)</sup>
+> Extism's goal is to make all software programmable, and is a flexible, embedded runtime to make it easy to extend your software with WebAssembly.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    SDKs to execute WebAssembly in:
+    - [`Browser`](https://extism.org/docs/integrate-into-your-codebase/browser-runtime-sdk/)
+    - [`C`](https://extism.org/docs/integrate-into-your-codebase/c-host-sdk/)
+    - [`C++`](https://extism.org/docs/integrate-into-your-codebase/cpp-host-sdk/)
+    - [`.NET`](https://extism.org/docs/integrate-into-your-codebase/dotnet-host-sdk)
+    - [`Elixir`](https://extism.org/docs/integrate-into-your-codebase/elixir-host-sdk/)
+    - [`Go`](https://extism.org/docs/integrate-into-your-codebase/go-host-sdk/)
+    - [`Haskell`](https://extism.org/docs/integrate-into-your-codebase/haskell-host-sdk/)
+    - [`Java`](https://extism.org/docs/integrate-into-your-codebase/java-host-sdk)
+    - [`Node`](https://extism.org/docs/integrate-into-your-codebase/node-host-sdk/)
+    - [`OCaml`](https://extism.org/docs/integrate-into-your-codebase/ocaml-host-sdk/)
+    - [`PHP`](https://extism.org/docs/integrate-into-your-codebase/php-host-sdk/)
+    - [`Python`](https://extism.org/docs/integrate-into-your-codebase/python-host-sdk/)
+    - [`Ruby`](https://extism.org/docs/integrate-into-your-codebase/ruby-host-sdk/)
+    - [`Rust`](https://extism.org/docs/integrate-into-your-codebase/rust-host-sdk/)
+    - [`Zig`](https://extism.org/docs/integrate-into-your-codebase/zig-host-sdk)
+ 
+    PDKs to create WebAssembly plug-ins in:
+    - [`Rust`](https://github.com/extism/rust-pdk)
+    - [`JavaScript`](https://extism.org/docs/write-a-plugin/js-pdk)
+    - [`Go`](https://github.com/extism/go-pdk)
+    - [`Haskell`](https://extism.org/docs/write-a-plugin/haskell-pdk)
+    - [`AssemblyScript`](https://github.com/extism/assemblyscript-pdk)
+    - [`C`](https://github.com/extism/c-pdk)
+    - [`C++`](https://github.com/extism/c-pdk)
+    - [`Zig`](https://extism.org/docs/write-a-plugin/zig-pdk)
+
+
+* **Host APIs supported**
+    - module loading & linking via [`Manifest`](https://extism.org/docs/concepts/manifest)
+    - WASI
+    - non-WASI `http_request`
 
 * **Platforms supported**
 
