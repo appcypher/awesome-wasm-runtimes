@@ -12,7 +12,16 @@
   <a href="https://awesome.re/"><img valign=middle src="https://awesome.re/badge.svg"></a>
 </p>
 
-> A WebAssembly runtime is a software environment that executes programs compiled to the WebAssembly (Wasm) binary format, enabling efficient and portable execution of code on the web. Notable runtimes include V8, SpiderMonkey, and Wasmtime.
+> A WebAssembly runtime is a software environment that executes programs compiled to the WebAssembly (Wasm) binary format, enabling efficient and portable execution of code. Notable runtimes include V8, SpiderMonkey, and Wasmtime.
+
+- **[V8](https://v8.dev/):** Browser \
+    V8 includes its own custom WebAssembly engine.
+
+- **[SpiderMonkey](https://spidermonkey.dev/):** Browser \
+    SpiderMonkey is also a WebAssembly engine.
+
+- **[JavaScriptCore](https://docs.webkit.org/Deep%20Dive/JSC/JavaScriptCore.html):** Browser \
+    JavaScriptCore includes its own custom WebAssembly engine.
 
 - **[aWsm](https://github.com/gwsystems/aWsm):** CLI \
     WebAssembly ahead-of-time compiler and runtime. Focuses on generating fast code, simplicity, and portability.
