@@ -58,7 +58,7 @@
 
 <details><summary>Older</summary>
 
-<sub>These WebAssembly runtimes haven't seen updates in a while but that doesn't mean they're not awesome! 🤩</sub>
+<sub>These WebAssembly runtimes haven't seen updates in a while but they're stil awesome! 🤩</sub>
 
 - **[EOS VM](https://github.com/EOSIO/eos-vm):** C++ \
     A Low-Latency, High Performance and Extensible WebAssembly Backend Library
