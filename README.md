@@ -1,4 +1,4 @@
-<p align=right><sup align=right>Table of Contents button ↗️</sup></p>
+<!-- <p align=right><sup align=right>Table of Contents button ↗️</sup></p> -->
 
 # Awesome WebAssembly runtimes
 
