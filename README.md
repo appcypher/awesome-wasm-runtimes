@@ -50,8 +50,11 @@
 - **[WebAssembly Micro Runtime](https://github.com/bytecodealliance/wasm-micro-runtime):** CLI, C, C++ \
     WebAssembly Micro Runtime (WAMR) is a lightweight standalone WebAssembly (Wasm) runtime with small footprint, high performance and highly configurable features for applications cross from embedded, IoT, edge to Trusted Execution Environment (TEE), smart contract, cloud native and so on.
 
-- **[wazero](https://wazero.io/):** Go \
+- **[wazero](https://wazero.io/):** CLI, Go \
     wazero is the only zero dependency WebAssembly runtime written in Go.
+
+- **[Lunatic](https://github.com/lunatic-solutions/lunatic):** CLI, Rust, AssemblyScript \
+    Lunatic is an Erlang-inspired runtime for WebAssembly
 
 <details><summary>Older</summary>
 
