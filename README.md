@@ -40,6 +40,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [WAVM](#wavm) <sup><sup>:rocket:</sup></sup></br>
 - [WebAssembly](#webassembly) <sup><sup>:sleeping:</sup></sup></br>
 - [WebAssembly Micro Runtime](#wamr) <sup><sup>:rocket:</sup></sup></br>
+- [Wizard Research Engine](#wizard) <sup><sup>:rocket:</sup></sup></br>
 - [TWVM](#twvm) <sup><sup>:rocket:</sup></sup></br>
 - [wazero](#wazero) <sup><sup>:rocket:</sup></sup></br>
 
@@ -2247,6 +2248,95 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 
 
 
+## <a name="wizard"></a>[Wizard](https://github.com/titzer/wizard-engine) <sup>[top⇈](#contents)</sup>
+> Wizard is a WebAssembly 1.0 and 2.0 spec-compliant runtime written in Virgil, with zero platform dependencies.
+> It features a fast interpreter, baseline compilation, and advanced dynamic analysis.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Virgil</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Custom</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreted</td>
+        <td>JIT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    <table>
+    <tr>
+        <td>Bulk Memory Operations</td>
+        <td>Import/Export of Mutable Globals</td>
+        <td>Sign-extension operators</td>
+        <td>Multi-Value Returns</td>
+        <td>Name Section</td>
+        <td>Non-trapping float-to-int conversions</td>
+        <td>Reference Types</td>
+        <td>SIMD</td>
+        <td>Tail-call</td>
+        <td>GC</td>
+        <td>Exception Handling</td>
+    </tr>
+    </table>
+
+* **Host APIs supported**
+
+    <table>
+    <tr>
+        <td>Wave</td>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Non-web standards**
+
+    <table>
+    <tr>
+        <td>WASI</td>
+    </tr>
+    </table>
+
+* **Used by**
+
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux (amd64, x86)</td>
+        <td>macOs (amd64)</td>
+        <td>Java (java5)</td>
+        <td>Wasm 1.0</td>
+        
+    </tr>
+    </table>
+-------------------
+
+## License
+
+[![Apache2](https://www.apache.org/licenses/LICENSE-2.0)]([https://creativecommons.org/publicdomain/zero/1.0/](https://www.apache.org/licenses/LICENSE-2.0))
+
 ## <a name="wazero"></a>[wazero](https://wazero.io) <sup>[top⇈](#contents)</sup>
 > wazero is a WebAssembly 1.0 and 2.0 spec compliant runtime written in Go, with zero platform dependencies.
 
@@ -2333,5 +2423,6 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 
 To the extent possible under law, [Steve Akinyemi](https://github.com/appcypher) has waived all copyright and related or neighboring rights to this work.
