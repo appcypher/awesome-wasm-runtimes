@@ -2331,11 +2331,6 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
         
     </tr>
     </table>
--------------------
-
-## License
-
-[![Apache2](https://www.apache.org/licenses/LICENSE-2.0)]([https://creativecommons.org/publicdomain/zero/1.0/](https://www.apache.org/licenses/LICENSE-2.0))
 
 ## <a name="wazero"></a>[wazero](https://wazero.io) <sup>[top⇈](#contents)</sup>
 > wazero is a WebAssembly 1.0 and 2.0 spec compliant runtime written in Go, with zero platform dependencies.
