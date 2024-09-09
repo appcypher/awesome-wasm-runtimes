@@ -5,7 +5,7 @@
 😎 A curated list of WebAssembly runtimes
 
 <p align=center>
-  <img height=360 src="https://i.imgur.com/6vjddKJ.png">
+  <img height=360 src="https://github.com/user-attachments/assets/84c19089-39f5-4b50-a3ba-b770a6b85b5d">
 </p>
 
 <p align=center>
