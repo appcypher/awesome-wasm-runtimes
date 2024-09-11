@@ -29,9 +29,6 @@
 - **[Extism](https://extism.org/):** CLI, Rust, JavaScript, Elixr, Go, Haskell, Java, .NET, OCaml, PHP, Python, Ruby, Zig, C, C++ \
     The framework for building with WebAssembly (wasm). Easily load wasm modules, move data, call functions, and build extensible apps.
 
-- **[Fizzy](https://github.com/wasmx/fizzy):** CLI, C, Rust \
-    Fizzy aims to be a fast, deterministic, and pedantic WebAssembly interpreter written in C++.
-
 - **[GraalWasm](https://github.com/oracle/graal/tree/master/wasm):** Java \
     GraalWasm is a WebAssembly engine implemented in GraalVM. It can interpret and compile WebAssembly programs in the binary format, or be embedded into other programs.
 
@@ -53,9 +50,6 @@
 - **[WasmVM](https://github.com/WasmVM/WasmVM):** CLI, C++ \
     A standalone WebAssembly process virtual machine
 
-- **[WAVM](https://wavm.github.io/):** CLI \
-    WebAssembly Virtual Machine
-
 - **[WebAssembly Micro Runtime](https://github.com/bytecodealliance/wasm-micro-runtime):** CLI, C, C++ \
     WebAssembly Micro Runtime (WAMR) is a lightweight standalone WebAssembly (Wasm) runtime with small footprint, high performance and highly configurable features for applications cross from embedded, IoT, edge to Trusted Execution Environment (TEE), smart contract, cloud native and so on.
 
@@ -64,3 +58,7 @@
 
 - **[Lunatic](https://github.com/lunatic-solutions/lunatic):** CLI, Rust, AssemblyScript \
     Lunatic is an Erlang-inspired runtime for WebAssembly
+
+---
+
+Criteria: Be active (activity within the last year) and be popular (100+ GitHub stars).
