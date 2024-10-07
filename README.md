@@ -169,8 +169,12 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 
     <table>
     <tr>
+        <td>Android</td>
+        <td>JVM</td>
+        <td>iOS>
         <td>Linux</td>
         <td>macOS</td>
+        <td>Windows</td>
     </tr>
     </table>
 
