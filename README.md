@@ -9,6 +9,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## CONTENTS
 
 - [aWsm](#awsm) <sup><sup>:rocket:</sup></sup></br>
+- [chasm](#chasm) <sup><sup>:rocket:</sup></sup></br>
 - [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [Extism](#extism) <sup><sup>:rocket:</sup></sup></br>
@@ -82,6 +83,69 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     <table>
     <tr>
         <td>C</td>
+    </tr>
+    </table>
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `N/A`
+
+* **Non-web standards**
+
+    - `N/A`
+
+* **Used by**
+
+    - `N/A`
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+    </tr>
+    </table>
+
+
+## <a name="chasm"></a>[chasm]([https://github.com/gwsystems/aWsm](https://github.com/CharlieTap/chasm)) <sup>[top⇈](#contents)</sup>
+
+> A WebAssembly runtime built on Kotlin Multiplatform
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Kotlin</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Kotlin</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Unknown</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    <table>
+    <tr>
+        <td>Kotlin</td>
     </tr>
     </table>
 
