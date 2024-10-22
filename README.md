@@ -9,6 +9,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 ## CONTENTS
 
 - [aWsm](#awsm) <sup><sup>:rocket:</sup></sup></br>
+- [Chicory](#chicory) <sup><sup>:rocket:</sup></sup></br>
 - [CMM of Wasm](#cmm) <sup><sup>:sleeping:</sup></sup></br>
 - [EOSVM](#eosvm) <sup><sup>:rocket:</sup></sup></br>
 - [Extism](#extism) <sup><sup>:rocket:</sup></sup></br>
@@ -107,6 +108,65 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
     <tr>
         <td>Linux</td>
         <td>macOS</td>
+    </tr>
+    </table>
+
+## <a name="chicory"></a>[Chicory](https://github.com/dylibso/chicory) <sup>[top⇈](#contents)</sup>
+
+> Chicory is a JVM native WebAssembly runtime. It allows you to run WebAssembly programs with zero native dependencies or JNI.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Java</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>JVM</td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>Interpreter</td>
+        <td>AOT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `WASI`
+
+* **Non-web standards**
+
+    - `N/A`
+
+* **Used by**
+
+    - JRuby (Ruby prism parser)
+    - Apache Camel
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Anywhere the JVM runs</td>
     </tr>
     </table>
 
