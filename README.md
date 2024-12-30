@@ -32,6 +32,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [Warpy](#warpy) <sup><sup>:sleeping:</sup></sup></br>
 - [WasmEdge](#wasmedge) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmer](#wasmer) <sup><sup>:rocket:</sup></sup></br>
+- [Wasix](#wasix) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmi](#wasmi) <sup><sup>:rocket:</sup></sup></br>
 - [Wasmo](#wasmo) <sup><sup>:rocket:</sup></sup></br>
 - [WasmRT](#wasmrt) <sup><sup>:sleeping:</sup></sup></br>
@@ -1912,6 +1913,64 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
 * **Used by**
 
     - [Wasmi](https://github.com/paritytech/wasmi): an efficient WebAssembly interpreter that is used by [Substrate](https://github.com/paritytech/substrate), a next-generation framework for blockchain innovation.
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
+
+## <a name="wasix"></a>[Wasix](https://github.com/wasix-org) <sup>[top⇈](#contents)</sup>
+> WASIX is the long term stabilization and support of the existing WASI ABI plus additional non-invasive syscall extensions
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>C and Rust</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td></td>
+    </tr>
+    </table>
+
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td></td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - `N/A`
+
+* **Non-MVP features supported**
+
+    - `N/A`
+
+* **Host APIs supported**
+
+    - `WASI`
+
+* **Non-web standards**
+
+    - `WASI`
+
+* **Used by**
+
+    - `N/A`
 
 * **Platforms supported**
 
