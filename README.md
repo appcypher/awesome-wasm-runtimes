@@ -513,10 +513,23 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
     <table>
     <tr>
         <td>Java</td>
-        <td>JVM</td>
-        <td>Graal supported languages</td>
+        <td>Kotlin</td>
+        <td>Clojure</td>
+        <td>Scala</td>
+        <td><a href="https://www.graalvm.org/latest/reference-manual/espresso/">JVM Bytecode</a></td>
+        <td><a href="https://www.graalvm.org/latest/reference-manual/ruby/">Ruby</a></td>
+        <td><a href="https://www.graalvm.org/python/docs/">Python</a></td>
+        <td><a href="https://www.graalvm.org/latest/reference-manual/js/">Javascript</a></td>
+        <td><a href="https://www.graalvm.org/latest/reference-manual/llvm/">LLVM IR</a></td>
+        <td><a href="https://github.com/oracle/fastr">R</a></td>
+        <td><a href="https://github.com/hpi-swa/trufflesqueak">Squeak</a></td>
+        <td><a href="https://www.graalvm.org/latest/graalvm-as-a-platform/language-implementation-framework/Languages">More</a></td>
     </tr>
-    </table>
+</table>
+
+Java, Kotlin, Clojure, and Scala need more boilerplate, and have less consistent tooling, when working with GraalWasm.  
+It is recommended, to explore the JVM Bytecode implementation for them. 
+
 
 * **Non-MVP features supported**
 
@@ -543,7 +556,7 @@ GraalWasm is a WebAssembly engine implemented in the GraalVM. It can interpret a
 
 * **Used by**
 
-    - [GraalVM JavaScript](https://github.com/graalvm/graaljs) - A high performance implementation of the JavaScript programming language.
+    - [GraalJS](https://github.com/graalvm/graaljs) - A high performance implementation of the JavaScript programming language.
 
 * **Platforms supported**
 
