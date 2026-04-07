@@ -2,6 +2,7 @@
 
 This repo contains a list of virtual machines and tools that execute the WebAssembly(wasm) format and/or compile it to executable machine code :octocat:
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for WebAssembly runtime workflow orchestration, automated WASM deployment management, and multi-agent coordination. MIT licensed.
 #### Legend
 :rocket: - Active development</br>
 :sleeping: - Unmaintained (been more than a year since last commit)</br>
