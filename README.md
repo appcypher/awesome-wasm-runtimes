@@ -18,6 +18,7 @@ This repo contains a list of virtual machines and tools that execute the WebAsse
 - [GraalWASM](#graalwasm) <sup><sup>:rocket:</sup></sup></br>
 - [Happy New Moon With Report](#happy-new-moon-with-report) <sup><sup>:rocket:</sup></sup></br>
 - [inNative](#innative) <sup><sup>:rocket:</sup></sup></br>
+- [Krate](#krate) <sup><sup>:rocket:</sup></sup></br>
 - [Life](#life) <sup><sup>:sleeping:</sup></sup></br>
 - [Lucet](#lucet) <sup><sup>:rocket:</sup></sup></br>
 - [wasm3](#wasm3) <sup><sup>:rocket:</sup></sup></br>
@@ -688,6 +689,51 @@ Happy New Moon with Report is an open-source implementation of WebAssembly writt
     </tr>
     </table>
 
+## <a name="krate"></a>[Krate](https://github.com/incyashraj/krate) <sup>[top⇈](#contents)</sup>
+> Krate is a desktop app runtime built on Wasmtime. An app ships as one .krate file that runs natively on macOS, Windows and Linux, sandboxed with permissions enforced on the device.
+
+* **Languages written in**
+
+    <table>
+    <tr>
+        <td>Rust</td>
+    </tr>
+    </table>
+
+* **Compiler framework**
+
+    <table>
+    <tr>
+        <td>Cranelift (via Wasmtime)</td>
+    </tr>
+    </table>
+
+* **Compilation / Execution modes**
+
+    <table>
+    <tr>
+        <td>JIT</td>
+        <td>AOT</td>
+    </tr>
+    </table>
+
+* **Interoperability with other languages**
+
+    - [`Rust`](https://github.com/incyashraj/krate)
+
+* **Host APIs supported**
+    - WASI
+    - Permission-gated host APIs (files, network, windowing)
+
+* **Platforms supported**
+
+    <table>
+    <tr>
+        <td>Linux</td>
+        <td>macOS</td>
+        <td>Windows</td>
+    </tr>
+    </table>
 
 ## <a name="life"></a>[Life](https://github.com/perlin-network/life) <sup>[top⇈](#contents)</sup>
 > Life is a secure & fast WebAssembly VM built for decentralized applications, written in Go by Perlin Network.
